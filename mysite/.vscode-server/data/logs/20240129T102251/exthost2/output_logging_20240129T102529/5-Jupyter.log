@@ -10,3 +10,5 @@ Workspace folder /root, Home = /root
 10:25:40.215 [warn] Failed to get activated env vars for /usr/local/bin/python3 in 1909ms
 10:25:40.440 [info] Process Execution: /usr/local/bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
 10:25:40.612 [info] Process Execution: /usr/local/bin/python3 -m pip list
+13:29:49.597 [info] Disposing HostJupyterExecution
+13:29:49.598 [info] Disposing HostJupyterExecution

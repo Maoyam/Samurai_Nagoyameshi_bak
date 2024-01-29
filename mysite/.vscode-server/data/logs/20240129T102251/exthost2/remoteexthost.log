@@ -61,3 +61,6 @@ To avoid installing xelatex (TeX), you might want to try exporting to HTML and u
 2024-01-29 10:50:53.867 [error] undefined
 2024-01-29 10:50:59.697 [error] [ecmel.vscode-html-css] provider FAILED
 2024-01-29 10:50:59.749 [error] undefined
+2024-01-29 13:29:49.329 [info] Extension host terminating: received terminate message from renderer
+2024-01-29 13:29:49.358 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-01-29 13:29:49.686 [info] Extension host with pid 1937 exiting with code 0

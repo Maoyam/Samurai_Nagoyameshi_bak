@@ -298,3 +298,10 @@
 2024-01-29 10:49:21.915 [info] [127.0.0.1][a0844f10][ManagementConnection] The client has reconnected.
 2024-01-29 11:26:56.750 [info] [127.0.0.1][a0844f10][ManagementConnection] The client has reconnected.
 2024-01-29 11:26:57.079 [info] [127.0.0.1][b0325e24][ExtensionHostConnection] The client has reconnected.
+2024-01-29 11:50:23.641 [info] [127.0.0.1][b0325e24][ExtensionHostConnection] The client has reconnected.
+2024-01-29 11:50:23.939 [info] [127.0.0.1][a0844f10][ManagementConnection] The client has reconnected.
+2024-01-29 13:29:49.328 [info] [127.0.0.1][a0844f10][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-29 13:29:49.747 [info] [127.0.0.1][b0325e24][ExtensionHostConnection] <1937> Extension Host Process exited with code: 0, signal: null.
+2024-01-29 13:48:54.952 [info] [127.0.0.1][2ae93be9][ManagementConnection] New connection established.
+2024-01-29 13:48:58.239 [info] [127.0.0.1][9c3cd766][ExtensionHostConnection] New connection established.
+2024-01-29 13:48:58.431 [info] [127.0.0.1][9c3cd766][ExtensionHostConnection] <69376> Launched Extension Host Process.
