@@ -42,3 +42,22 @@ To avoid installing xelatex (TeX), you might want to try exporting to HTML and u
 2024-01-29 10:25:37.990 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
 2024-01-29 10:25:37.990 [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete, startup: false, activationEvent: 'onStartupFinished'
 2024-01-29 10:25:37.991 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 10:38:57.548 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-01-29 10:50:31.944 [error] [ecmel.vscode-html-css] provider FAILED
+2024-01-29 10:50:31.959 [error] undefined
+2024-01-29 10:50:33.009 [error] [ecmel.vscode-html-css] provider FAILED
+2024-01-29 10:50:33.009 [error] undefined
+2024-01-29 10:50:33.136 [error] [ecmel.vscode-html-css] provider FAILED
+2024-01-29 10:50:33.140 [error] undefined
+2024-01-29 10:50:36.747 [error] [ecmel.vscode-html-css] provider FAILED
+2024-01-29 10:50:36.753 [error] undefined
+2024-01-29 10:50:38.684 [error] [ecmel.vscode-html-css] provider FAILED
+2024-01-29 10:50:38.687 [error] undefined
+2024-01-29 10:50:39.888 [error] [ecmel.vscode-html-css] provider FAILED
+2024-01-29 10:50:39.904 [error] undefined
+2024-01-29 10:50:50.586 [error] [ecmel.vscode-html-css] provider FAILED
+2024-01-29 10:50:50.612 [error] undefined
+2024-01-29 10:50:53.866 [error] [ecmel.vscode-html-css] provider FAILED
+2024-01-29 10:50:53.867 [error] undefined
+2024-01-29 10:50:59.697 [error] [ecmel.vscode-html-css] provider FAILED
+2024-01-29 10:50:59.749 [error] undefined
