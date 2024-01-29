@@ -1,0 +1,19 @@
+2024-01-29 10:25:05.881 [info] 実験 'pythonaacf' はアクティブです
+2024-01-29 10:25:05.882 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-01-29 10:25:05.883 [info] 実験 'pythonREPLSmartSend' はアクティブです
+2024-01-29 10:25:05.883 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2024-01-29 10:25:05.884 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-01-29 10:25:05.886 [info] Default formatter is set to null for workspace /root
+2024-01-29 10:25:05.887 [info] Test server listening.
+2024-01-29 10:25:05.887 [info] Python インタープリター パス: /usr/local/bin/python3
+2024-01-29 10:25:05.887 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-29 10:25:05.888 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-29 10:25:06.073 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-29 10:25:06.075 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-29 10:25:06.075 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-29 10:25:06.076 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-29 10:25:06.076 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-29 10:25:06.077 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-29 10:25:06.119 [info] Send text to terminal: echo /bin/bash
+2024-01-29 10:25:06.180 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-29 10:25:06.181 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS

@@ -1,0 +1,15 @@
+2024-01-29 10:25:40.851 [info] (Client) Pylance async client (2023.12.1) started with python extension (2023.22.1)
+2024-01-29 10:25:42.691 [info] [Info  - 10:25:42 AM] (2280) Pylance language server 2023.12.1 (pyright a78e2b10) starting
+2024-01-29 10:25:42.706 [info] [Info  - 10:25:42 AM] (2280) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.12.1/dist
+2024-01-29 10:25:42.711 [info] [Info  - 10:25:42 AM] (2280) Starting service instance "root"
+2024-01-29 10:25:43.192 [info] [Info  - 10:25:43 AM] (2280) Setting pythonPath for service "root": "/usr/local/bin/python3"
+2024-01-29 10:25:43.196 [info] [Info  - 10:25:43 AM] (2280) Setting environmentName for service "root": "3.11.7 (グローバル)"
+2024-01-29 10:25:43.260 [info] [Info  - 10:25:43 AM] (2280) Assuming Python version 3.11
+2024-01-29 10:25:43.994 [info] [Info  - 10:25:43 AM] (2280) Found 20 source files
+2024-01-29 10:25:47.985 [info] [Info  - 10:25:47 AM] (2280) [BG(1)] Long operation: getSemanticTokens full at /root/config/settings.py (2598ms)
+2024-01-29 10:25:52.762 [info] [Info  - 10:25:52 AM] (2280) [IDX(2)] Long operation: scan packages /root (6923ms)
+2024-01-29 10:25:59.315 [info] [Info  - 10:25:59 AM] (2280) [IDX(2)] Long operation: parsing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.12.1/dist/typeshed-fallback/stubs/Pillow/PIL/__init__.pyi (5706ms)
+2024-01-29 10:25:59.617 [info] [Info  - 10:25:59 AM] (2280) [IDX(2)] Long operation: indexing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.12.1/dist/typeshed-fallback/stubs/Pillow/PIL/__init__.pyi (6148ms)
+2024-01-29 10:26:03.802 [info] [Info  - 10:26:03 AM] (2280) [IDX(2)] Long operation: indexing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.12.1/dist/bundled/stubs/django-stubs/test/__init__.pyi (3576ms)
+2024-01-29 10:26:04.746 [info] [Info  - 10:26:04 AM] (2280) [IDX(2)] Long operation: index execution environment /root (11698ms)
+2024-01-29 10:26:04.851 [info] [Info  - 10:26:04 AM] (2280) [IDX(2)] Long operation: index packages /root (11827ms)

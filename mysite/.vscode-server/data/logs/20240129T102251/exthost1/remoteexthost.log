@@ -1,0 +1,47 @@
+2024-01-29 10:23:15.546 [info] Extension host with pid 294 started
+2024-01-29 10:23:15.745 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-01-29 10:23:15.800 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-29 10:23:15.807 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-01-29 10:23:15.815 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Lock acquired.
+2024-01-29 10:23:17.375 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-29 10:23:17.878 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-29 10:23:17.882 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-29 10:23:18.592 [info] Eager extensions activated
+2024-01-29 10:23:18.594 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 10:23:18.598 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 10:23:18.602 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 10:23:18.608 [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 10:23:28.965 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2024-01-29 10:23:28.978 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2024-01-29 10:23:28.980 [info] ExtensionService#_doActivateExtension njqdev.vscode-python-typehint, startup: false, activationEvent: 'onLanguage:python'
+2024-01-29 10:23:28.982 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2024-01-29 10:23:37.254 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 10:23:58.485 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2024-01-29 10:23:59.351 [warning] Using default string since no string found in i18n bundle that has the key: The security certificate used by server was not issued by a trusted certificate authority.
+This may indicate an attempt to steal your information.
+2024-01-29 10:23:59.352 [warning] Using default string since no string found in i18n bundle that has the key: The security certificate used by server has expired.
+This may indicate an attempt to steal your information.
+2024-01-29 10:23:59.353 [warning] Using default string since no string found in i18n bundle that has the key: The Kernel crashed while executing code in the the current cell or a previous cell. Please review the code in the cell(s) to identify a possible cause of the failure. Click <a href='https://aka.ms/vscodeJupyterKernelCrash'>here</a> for more info. View Jupyter [log](command:jupyter.viewOutput) for further details./Do not translate the text "command:jupyter.viewOutput", that is a command Id that will be used by VS Code to open the output panelDo not translate the link https://aka.ms/vscodeJupyterKernelCrash
+2024-01-29 10:23:59.354 [warning] Using default string since no string found in i18n bundle that has the key: If you have not installed xelatex (TeX), you will need to do so before you can export to PDF. For further instructions, please see https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex. 
+To avoid installing xelatex (TeX), you might want to try exporting to HTML and using your browser's "Print to PDF" feature.
+2024-01-29 10:24:00.582 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2024-01-29 10:24:09.550 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: false, activationEvent: '*'
+2024-01-29 10:24:36.376 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2024-01-29 10:25:04.198 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2024-01-29 10:25:05.210 [warning] Using default string since no string found in i18n bundle that has the key: You need to select a Python interpreter before you start debugging.
+
+Tip: click on "Select Interpreter" in the status bar.
+2024-01-29 10:25:05.211 [warning] Using default string since no string found in i18n bundle that has the key: The Python extension now includes Pylance to improve completions, code navigation, overall performance and much more! You can learn more about the update and learn how to change your language server [here](https://aka.ms/new-python-bundle).
+
+Read Pylance's license [here](https://marketplace.visualstudio.com/items/ms-python.vscode-pylance/license).
+2024-01-29 10:25:05.211 [warning] Using default string since no string found in i18n bundle that has the key: Python is unable to parse the code provided. Please
+    turn off Smart Send if you wish to always run line by line or explicitly select code
+    to force run. See [logs](command:{0}) for more details
+2024-01-29 10:25:05.214 [warning] Using default string since no string found in i18n bundle that has the key: The Microsoft Python Language Server has reached end of life. Your language server has been set to the default for Python in VS Code, Pylance.
+
+If you'd like to change your language server, you can learn about how to do so [here](https://devblogs.microsoft.com/python/python-in-visual-studio-code-may-2021-release/#configuring-your-language-server).
+
+Read Pylance's license [here](https://marketplace.visualstudio.com/items/ms-python.vscode-pylance/license).
+2024-01-29 10:25:07.762 [info] Extension host terminating: received terminate message from renderer
+2024-01-29 10:25:07.766 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-01-29 10:25:08.139 [info] Extension host with pid 294 exiting with code 0
