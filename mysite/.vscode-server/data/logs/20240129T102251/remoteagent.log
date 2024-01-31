@@ -305,3 +305,9 @@
 2024-01-29 13:48:54.952 [info] [127.0.0.1][2ae93be9][ManagementConnection] New connection established.
 2024-01-29 13:48:58.239 [info] [127.0.0.1][9c3cd766][ExtensionHostConnection] New connection established.
 2024-01-29 13:48:58.431 [info] [127.0.0.1][9c3cd766][ExtensionHostConnection] <69376> Launched Extension Host Process.
+2024-01-29 13:50:50.186 [info] [127.0.0.1][9c3cd766][ExtensionHostConnection] The client has reconnected.
+2024-01-29 13:50:50.595 [info] [127.0.0.1][2ae93be9][ManagementConnection] The client has reconnected.
+2024-01-29 14:01:03.146 [info] [127.0.0.1][2ae93be9][ManagementConnection] The client has reconnected.
+2024-01-29 14:01:03.385 [info] [127.0.0.1][9c3cd766][ExtensionHostConnection] The client has reconnected.
+2024-01-29 15:05:13.929 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-29 23:03:57.006 [warning] No ptyHost heartbeat after 6 seconds
