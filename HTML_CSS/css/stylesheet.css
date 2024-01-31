@@ -1,0 +1,67 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 0.8em;
+    height: 110px;
+}
+
+.logo-container > h1 > img {
+    height: 80px;
+}
+
+
+nav {
+    padding-right: 20px;
+    padding-bottom: 7px;
+}
+
+nav > a {
+   text-decoration: none; 
+   font-size: 0.9em;
+   color: #444444;
+   padding-right: 20px;
+}
+
+main {
+    height: 70vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F57F00;
+    height: 70px;
+    color: #FFF;
+    align-items: ;
+
+}
+
+footer > a {
+    display: block;
+    text-decoration: underline;
+    color: #FFF;
+    padding-top: 10px;
+}
+
+footer > p {
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+
