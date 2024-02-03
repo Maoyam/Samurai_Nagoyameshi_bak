@@ -173,3 +173,25 @@ footer > div > p {
 }
 
 
+@media screen and (max-width: 767px) {
+    /* メインコンテンツ */
+    .main-contents {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 7vw;
+        row-gap: 10px;
+    }
+    /* 左側コンテンツ */
+    .left-container {
+        width: 100%;
+}
+
+    /* 右側コンテンツ */
+    .right-container {
+        width: 100%;
+}
+    
+}
+
+
+
