@@ -1,8 +1,20 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Hiragino Sans','Yu Gothic','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h2 {
+    font-size: 1.1rem;
+    color: #F57F00;
+    margin-bottom: 5px;
+    font-weight: 600;
+    
+}
 
+a {
+    color: #444444;
+}
+
+/* ヘッダー */
 header {
     display: flex;
     flex-direction: row;
@@ -37,31 +49,128 @@ nav > a {
    color: #444444;
    padding-right: 20px;
 }
+/* メインコンテンツ */
 
-main {
-    height: 70vh;
+/* ヒーロー画像 */
+.top-images {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 135, 5, 0.16);
+    margin: 10px 0;
 }
 
-footer {
+.top-images > img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+
+/* コンテンツ */
+
+.main-contents {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ width: 90%;
+ max-width: 1000px;
+ margin: 20px auto;
+}
+
+.text-link span {
+    padding-right: 1em;
+    font-size: 0.9em;
+}
+
+.main-contents p {
+    padding-bottom: 10px;
+}
+
+/* 左側コンテンツ */
+.left-container {
+    width: 40%;
+}
+
+.search-window {
     display: flex;
-    flex-direction: column;
-    background-color: #F57F00;
-    height: 70px;
-    color: #FFF;
-    align-items: ;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 85%;
+    margin-bottom: 10px;
 
 }
 
-footer > a {
-    display: block;
+.search-window > div {
+    background-color: rgba(255, 135, 5, 0.16);
+    padding: 10px;
+    width: 80%;
+}
+
+input::placeholder {
+    font-size: 0.7em;
+   }
+
+input[type="submit"] {
+    font-size: 0.9em;
+    color: #FFF;
+    width: 20%;
+    background-color: #F57F00;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.search-window span {
+    background-color: #F57F00;
+}
+
+/* 右側コンテンツ */
+.right-container {
+    width: 40%;
+}
+
+.right-container div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 5px 10px;
+    width: 100%;
+}
+
+.right-container a {
+    width: 45%;
+}
+
+.genre-link img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+/* フッター */
+footer {
+    background-color: #F57F00;
+    color: #FFF;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+footer > div {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a {
     text-decoration: underline;
     color: #FFF;
-    padding-top: 10px;
 }
 
-footer > p {
+footer > div > p {
     font-size: 0.8em;
-    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 
