@@ -13,7 +13,7 @@ h2 {
 a {
     color: #444444;
 }
-
+/* TOP */
 /* ヘッダー */
 header {
     display: flex;
@@ -190,8 +190,81 @@ footer > div > p {
     .right-container {
         width: 100%;
 }
-    
 }
 
+/* 店舗詳細ページ */
+/* お気に入り追加ボタン */
+.shop_info {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 360px;
+    width: 100vw;
+    background-color: rgba(255, 135, 5, 0.16);
+    position: relative;
+    padding: 0 50px 50px 50px;
+}
+
+
+.btn_fav {
+    height: auto;
+    width: auto;
+    font-size: 0.9em;
+    border-radius: 5px;
+    background-color: #F57F00;
+    color: #FFF;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+
+
+
+/* 店舗詳細左 */
+
+.shop_info_L {
+    width: 30%;
+
+}
+
+.shop_info_L p {
+    font-size: 0.8rem;
+}
+
+.shop_info_L h1 {
+    font-size: 1.5rem;
+}
+
+.shop_info_L img {
+    width: 70px;
+    min-width: 250px;
+}
+/* 店舗詳細右 */
+
+.shop_info_R {
+    width: 60%;
+} 
+
+.price_genre {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+}
+
+/* レビューと予約 */
+.shop_contents {
+    display: flex;
+    width: 90%;
+    align-self: center;
+}
+
+/* レビュー */
+.review_container {
+    display: flex;
+    flex-direction: column;
+}
 
 
