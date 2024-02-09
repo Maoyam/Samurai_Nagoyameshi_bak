@@ -220,13 +220,12 @@ footer > div > p {
     display: inline-block;
 }
 
-
-
-
 /* 店舗詳細左 */
 
 .shop_info_L {
     width: 30%;
+    min-width: 250px;
+    margin-right: 30px;
 
 }
 
@@ -239,32 +238,163 @@ footer > div > p {
 }
 
 .shop_info_L img {
-    width: 70px;
+    width: 100%;
     min-width: 250px;
+    max-width: 300px;
 }
 /* 店舗詳細右 */
 
 .shop_info_R {
     width: 60%;
+    height: 230px;
+    min-width: 300px;
 } 
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
 
 .price_genre {
     display: flex;
     justify-content: left;
-    gap: 50px;
+    gap: 150px;
+}
+
+.info-scroll {
+    height: 180px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.shop_info_R p {
+    font-size: 0.9em;
+    overflow-y: auto;
 }
 
 /* レビューと予約 */
 .shop_contents {
     display: flex;
-    width: 90%;
-    align-self: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0 85px;
+
+    
 }
 
 /* レビュー */
 .review_container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
 }
 
+.review_top_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+}
 
+.review_top_container h3, p {
+    display: inline-block;
+}
+
+.review_top_container > div {
+    align-self: self-end;
+}
+
+.btn_rev {
+    height: auto;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    background-color: #F57F00;
+    color: #FFF;
+    display: inline-block;
+}
+
+.review_scroll {
+    width: 100%;
+    max-height: 350px;
+    overflow-y: auto;
+    border: 1px dotted #444444;
+}
+
+.review_contents {
+    margin: 50px;
+}
+
+/* 予約フォーム */
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    filter: drop-shadow(0px 0.5px 1px #000000);
+    padding-top: 55px;
+    margin-left: 20px;
+}
+
+.booking_header {
+    background-color: #F57F00;
+    color: #FFF;
+    text-align: center;
+}
+
+.booking_header p {
+    font-size: 0.7em;
+}
+
+.booking_header, .booking_form {
+    width: 300px;
+    min-width: 200px;
+}
+
+.booking_form {
+    background-color: #FFFDFB;
+    height: 300px;
+    
+}
+
+.booking_form div {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding-top: 25px;   
+
+}
+
+.booking_form label {
+    display: block;
+    margin-bottom: 1px;
+    font-size: 0.9em;
+}
+
+.booking_form input {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #929292;
+    background-color: #FFF;
+    color: #929292;
+    width: 100%;
+    height: 2.2em;
+}
+
+.booking_form button {
+    background-color: #F57F00;
+    color: #FFF;
+    height: auto;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+}
