@@ -22,3 +22,91 @@
 2024-02-10 04:14:26.068 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
 2024-02-10 04:14:26.295 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja
 2024-02-10 04:14:26.300 [info] Extension 'ms-ceintl.vscode-language-pack-ja' v1.85.2024020709 was successfully installed.
+2024-02-10 06:32:34.463 [info] Getting Manifest... donjayamanne.python-extension-pack
+2024-02-10 06:32:34.556 [info] Installing extension: donjayamanne.python-extension-pack
+2024-02-10 06:32:35.472 [info] Getting Manifest... ms-python.python
+2024-02-10 06:32:36.133 [info] Getting Manifest... ms-python.vscode-pylance
+2024-02-10 06:32:36.215 [info] Getting Manifest... ms-python.debugpy
+2024-02-10 06:32:36.497 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2024-02-10 06:32:36.863 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2024-02-10 06:32:37.012 [info] Getting Manifest... batisteo.vscode-django
+2024-02-10 06:32:37.095 [info] Getting Manifest... wholroyd.jinja
+2024-02-10 06:32:37.204 [info] Getting Manifest... kevinrose.vsc-python-indent
+2024-02-10 06:32:37.536 [info] Getting Manifest... njpwerner.autodocstring
+2024-02-10 06:32:37.645 [info] Getting Manifest... donjayamanne.python-environment-manager
+2024-02-10 06:32:37.823 [info] Installing extension: ms-python.python donjayamanne.python-extension-pack
+2024-02-10 06:32:37.824 [info] Installing extension: ms-python.vscode-pylance donjayamanne.python-extension-pack
+2024-02-10 06:32:37.827 [info] Installing extension: ms-python.debugpy donjayamanne.python-extension-pack
+2024-02-10 06:32:37.829 [info] Installing extension: visualstudioexptteam.vscodeintellicode donjayamanne.python-extension-pack
+2024-02-10 06:32:37.830 [info] Installing extension: visualstudioexptteam.intellicode-api-usage-examples donjayamanne.python-extension-pack
+2024-02-10 06:32:37.831 [info] Installing extension: batisteo.vscode-django donjayamanne.python-extension-pack
+2024-02-10 06:32:37.831 [info] Installing extension: wholroyd.jinja donjayamanne.python-extension-pack
+2024-02-10 06:32:37.834 [info] Installing extension: kevinrose.vsc-python-indent donjayamanne.python-extension-pack
+2024-02-10 06:32:37.835 [info] Installing extension: njpwerner.autodocstring donjayamanne.python-extension-pack
+2024-02-10 06:32:37.836 [info] Installing extension: donjayamanne.python-environment-manager donjayamanne.python-extension-pack
+2024-02-10 06:32:52.752 [info] Extension signature is verified: wholroyd.jinja
+2024-02-10 06:32:52.963 [info] Extension signature is verified: visualstudioexptteam.intellicode-api-usage-examples
+2024-02-10 06:32:53.203 [info] Extracted extension to file:///root/.vscode-server/extensions/wholroyd.jinja-0.0.8: wholroyd.jinja
+2024-02-10 06:32:53.246 [info] Extension signature is verified: kevinrose.vsc-python-indent
+2024-02-10 06:32:53.279 [info] Renamed to /root/.vscode-server/extensions/wholroyd.jinja-0.0.8
+2024-02-10 06:32:53.464 [info] Extracting extension completed. wholroyd.jinja
+2024-02-10 06:32:53.950 [info] Extension signature is verified: batisteo.vscode-django
+2024-02-10 06:32:54.223 [info] Extension signature is verified: njpwerner.autodocstring
+2024-02-10 06:32:54.380 [info] Extension signature is verified: ms-python.debugpy
+2024-02-10 06:32:54.571 [info] Extension signature is verified: donjayamanne.python-environment-manager
+2024-02-10 06:32:54.579 [info] Extracted extension to file:///root/.vscode-server/extensions/kevinrose.vsc-python-indent-1.18.0: kevinrose.vsc-python-indent
+2024-02-10 06:32:54.704 [info] Renamed to /root/.vscode-server/extensions/kevinrose.vsc-python-indent-1.18.0
+2024-02-10 06:32:54.779 [info] Extracting extension completed. kevinrose.vsc-python-indent
+2024-02-10 06:32:55.415 [info] Extension signature is verified: ms-python.python
+2024-02-10 06:32:57.054 [info] Extracted extension to file:///root/.vscode-server/extensions/njpwerner.autodocstring-0.6.1: njpwerner.autodocstring
+2024-02-10 06:32:57.273 [info] Renamed to /root/.vscode-server/extensions/njpwerner.autodocstring-0.6.1
+2024-02-10 06:32:57.327 [info] Extracting extension completed. njpwerner.autodocstring
+2024-02-10 06:32:57.718 [info] Extracted extension to file:///root/.vscode-server/extensions/batisteo.vscode-django-1.15.0: batisteo.vscode-django
+2024-02-10 06:32:57.793 [info] Renamed to /root/.vscode-server/extensions/batisteo.vscode-django-1.15.0
+2024-02-10 06:32:57.823 [info] Extracting extension completed. batisteo.vscode-django
+2024-02-10 06:32:58.756 [info] Extracted extension to file:///root/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.8: visualstudioexptteam.intellicode-api-usage-examples
+2024-02-10 06:32:58.834 [info] Renamed to /root/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.8
+2024-02-10 06:32:58.859 [info] Extracting extension completed. visualstudioexptteam.intellicode-api-usage-examples
+2024-02-10 06:33:00.499 [info] Extension signature is verified: visualstudioexptteam.vscodeintellicode
+2024-02-10 06:33:02.280 [info] Extracted extension to file:///root/.vscode-server/extensions/donjayamanne.python-environment-manager-1.2.4: donjayamanne.python-environment-manager
+2024-02-10 06:33:02.356 [info] Renamed to /root/.vscode-server/extensions/donjayamanne.python-environment-manager-1.2.4
+2024-02-10 06:33:02.376 [info] Extracting extension completed. donjayamanne.python-environment-manager
+2024-02-10 06:33:05.706 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64: ms-python.debugpy
+2024-02-10 06:33:05.813 [info] Renamed to /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64
+2024-02-10 06:33:05.830 [info] Extracting extension completed. ms-python.debugpy
+2024-02-10 06:33:21.851 [info] Extracted extension to file:///root/.vscode-server/extensions/visualstudioexptteam.vscodeintellicode-1.2.30: visualstudioexptteam.vscodeintellicode
+2024-02-10 06:33:22.026 [info] Renamed to /root/.vscode-server/extensions/visualstudioexptteam.vscodeintellicode-1.2.30
+2024-02-10 06:33:22.053 [info] Extracting extension completed. visualstudioexptteam.vscodeintellicode
+2024-02-10 06:33:24.100 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.python-2024.0.1: ms-python.python
+2024-02-10 06:33:24.207 [info] Renamed to /root/.vscode-server/extensions/ms-python.python-2024.0.1
+2024-02-10 06:33:24.227 [info] Extracting extension completed. ms-python.python
+2024-02-10 06:33:28.247 [info] Extension signature is verified: ms-python.vscode-pylance
+2024-02-10 06:33:59.800 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1: ms-python.vscode-pylance
+2024-02-10 06:34:00.005 [info] Renamed to /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1
+2024-02-10 06:34:00.023 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-02-10 06:34:03.688 [info] Extension signature is verified: donjayamanne.python-extension-pack
+2024-02-10 06:34:03.724 [info] Extracted extension to file:///root/.vscode-server/extensions/donjayamanne.python-extension-pack-1.7.0: donjayamanne.python-extension-pack
+2024-02-10 06:34:03.733 [info] Renamed to /root/.vscode-server/extensions/donjayamanne.python-extension-pack-1.7.0
+2024-02-10 06:34:03.742 [info] Extracting extension completed. donjayamanne.python-extension-pack
+2024-02-10 06:34:03.752 [info] Extension installed successfully: wholroyd.jinja
+2024-02-10 06:34:03.753 [info] Extension installed successfully: kevinrose.vsc-python-indent
+2024-02-10 06:34:03.753 [info] Extension installed successfully: njpwerner.autodocstring
+2024-02-10 06:34:03.755 [info] Extension installed successfully: batisteo.vscode-django
+2024-02-10 06:34:03.755 [info] Extension installed successfully: visualstudioexptteam.intellicode-api-usage-examples
+2024-02-10 06:34:03.756 [info] Extension installed successfully: donjayamanne.python-environment-manager
+2024-02-10 06:34:03.757 [info] Extension installed successfully: ms-python.debugpy
+2024-02-10 06:34:03.758 [info] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+2024-02-10 06:34:03.759 [info] Extension installed successfully: ms-python.python
+2024-02-10 06:34:03.760 [info] Extension installed successfully: ms-python.vscode-pylance
+2024-02-10 06:34:03.761 [info] Extension installed successfully: donjayamanne.python-extension-pack
+2024-02-10 06:39:32.814 [info] [127.0.0.1][e57ca163][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-10 06:39:33.176 [info] [127.0.0.1][984e4f08][ExtensionHostConnection] <349> Extension Host Process exited with code: 0, signal: null.
+2024-02-10 06:40:22.912 [info] [127.0.0.1][53c54705][ManagementConnection] New connection established.
+2024-02-10 06:40:23.720 [info] [127.0.0.1][65e94ff6][ExtensionHostConnection] New connection established.
+2024-02-10 06:40:23.816 [info] [127.0.0.1][65e94ff6][ExtensionHostConnection] <87750> Launched Extension Host Process.
+2024-02-10 06:45:00.263 [error] AggregateError
+    at internalConnectMultiple (node:net:1082:18)
+    at afterConnectMultiple (node:net:1533:5)
+2024-02-10 06:45:00.293 [error] AggregateError
+    at internalConnectMultiple (node:net:1082:18)
+    at afterConnectMultiple (node:net:1533:5)
