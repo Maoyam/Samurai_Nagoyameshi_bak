@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}NAGOYAMeSHi{% endblock %}
+    {% block content %}
+    <main>
+        <!-- カルーセル -->
+        <div class="top-images">
+            <img src="/static/general/images/top_img1.jpg" alt="たこ焼き屋の画像">
+        </div>
+        <div class="main-contents">
+            <!-- Left search -->
+            <div class="left-container">
+                <form action="">
+                    <div class="search-window">
+                        <div>
+                            <img src="/static/general/images/search.svg" width="13px" alt="">
+                            <input type="search" name="search" placeholder="ジャンル・店名・エリアで検索">
+                        </div>
+                        <input type="submit" name="submit" value="検索">
+                    </div>
+                </form>
+                <div class="search-area">
+                    <h2><span>エリアから探す<span><img src="/static/general/images/search.svg" width="13px" alt=""></span></span></h2>
+                   
+                    {% for area in areas %}
+                    <a href="">{{area.name}}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <!-- Right search -->
+            <div class="right-container">
+                <h2><span>ジャンルで探す<span><img src="/static/general/images/search.svg" width="13px" alt=""></span></span></h2>
+                <div class="genre-link">
+                    {% for genre in genres %}
+                        {% if genre.image %}
+                        <!-- <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
+                        <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
+                        <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
+                        <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
+                        <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
+                        <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a> -->
+
+                            <a href="">{{genre.image}}</a>
+                        {% else %}
+                            <a href="">{{genre.name}}</a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <p class="text-link"><span><a href="">スイーツ</a></span><span><a href="">アジアンフード</a></span><span><a href="">中華</a></span><span><a href="">韓国料理</a></span></p>
+            </div>
+        </div>
+    </main>
+    {% endblock %}

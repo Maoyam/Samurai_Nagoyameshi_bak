@@ -1,0 +1,50 @@
+2024-02-10 10:13:57.354 [info] Extension host with pid 1956 started
+2024-02-10 10:13:57.410 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-10 10:13:57.486 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Lock acquired.
+2024-02-10 10:13:57.611 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-10 10:13:57.646 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:manage.py'
+2024-02-10 10:13:57.979 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-10 10:13:57.982 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-10 10:14:00.805 [info] Eager extensions activated
+2024-02-10 10:14:00.806 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-10 10:14:00.808 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-10 10:14:01.707 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2024-02-10 10:14:03.700 [info] Extension host terminating: received terminate message from renderer
+2024-02-10 10:14:03.715 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-02-10 10:14:03.895 [error] Canceled: Canceled
+	at new f (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at p.setState (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/extensions/git/dist/main.js:2:933185)
+	at /root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/extensions/git/dist/main.js:2:934953
+	at <anonymous> setContext undefined
+2024-02-10 10:14:04.370 [error] Canceled: Canceled
+	at new f (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.getCommands (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:150:176265)
+	at Object.getCommands (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:160:21689)
+	at _0xac41b8 (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:121993)
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:119803
+	at async Object.start (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:119326)
+	at async _0x27bef5.<computed>._startClient (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:62478)
+	at async _0x27bef5.<computed>._createNewRequest (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:61915)
+2024-02-10 10:14:04.373 [error] Canceled: Canceled
+	at new f (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.getCommands (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:150:176265)
+	at Object.getCommands (/root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/workbench/api/node/extensionHostProcess.js:160:21689)
+	at _0xac41b8 (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:121993)
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:119803
+	at async Object.start (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:119326)
+	at async _0x27bef5.<computed>._startClient (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:62478)
+	at async _0x27bef5.<computed>._createNewRequest (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:61915)
+2024-02-10 10:14:04.375 [info] Extension host with pid 1956 exiting with code 0

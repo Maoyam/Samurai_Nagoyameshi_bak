@@ -1,0 +1,39 @@
+2024-02-11 02:57:10.877 [info] 実験 'pythonaacf' はアクティブです
+2024-02-11 02:57:10.877 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-02-11 02:57:10.878 [info] 実験 'pythonREPLSmartSend' はアクティブです
+2024-02-11 02:57:10.878 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2024-02-11 02:57:10.879 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-02-11 02:57:10.879 [info] Default formatter is set to null for workspace /root
+2024-02-11 02:57:10.879 [info] Test server listening.
+2024-02-11 02:57:10.880 [info] Python インタープリター パス: /usr/local/bin/python3
+2024-02-11 02:57:13.787 [info] Pylance 言語サーバーを開始しています。
+2024-02-11 02:57:16.083 [info] Discover tests for workspace name: undefined - uri: /Users/maru/Library/Application Support/Code/User/settings.json
+2024-02-11 02:58:09.396 [info] Discover tests for workspace name: root - uri: /root/general/views/top_view.py
+2024-02-11 02:58:46.948 [info] Discover tests for workspace name: root - uri: /root/general/views/top_view.py
+2024-02-11 02:59:38.881 [info] Discover tests for workspace name: root - uri: /root/general/views/top_view.py
+2024-02-11 03:00:16.573 [info] Discover tests for workspace name: root - uri: /root/general/views/top_view.py
+2024-02-11 03:01:03.584 [info] Discover tests for workspace name: root - uri: /root/general/views/top_view.py
+2024-02-11 11:19:47.901 [info] Discover tests for workspace name: root - uri: /root/config/settings.py
+2024-02-11 11:20:10.064 [info] Discover tests for workspace name: root - uri: /root/config/settings.py
+2024-02-11 11:23:25.291 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 12:15:04.700 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 12:15:05.805 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 12:19:33.967 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-11 12:25:45.398 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 12:28:32.285 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-11 12:32:02.374 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 12:32:11.402 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-11 12:33:15.722 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-11 12:57:40.451 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 13:06:31.506 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-11 13:07:29.901 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-11 13:11:31.893 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-12 01:29:07.668 [info] Discover tests for workspace name: root - uri: /root/general/views/top_view.py
+2024-02-12 01:49:46.864 [info] Discover tests for workspace name: root - uri: /root/general/views/top_view.py
+2024-02-12 01:50:20.281 [info] Discover tests for workspace name: root - uri: /root/general/views/top_view.py
+2024-02-12 01:51:13.139 [info] Discover tests for workspace name: root - uri: /root/general/views/top_view.py
+2024-02-12 03:48:45.625 [info] Discover tests for workspace name: root - uri: /root/config/settings.py
+2024-02-12 03:49:14.443 [info] Discover tests for workspace name: root - uri: /root/config/settings.py
+2024-02-12 03:49:32.949 [info] Discover tests for workspace name: root - uri: /root/config/settings.py
+2024-02-12 03:55:06.503 [info] Discover tests for workspace name: root - uri: /root/config/settings.py
+2024-02-12 03:59:16.643 [info] Discover tests for workspace name: root - uri: /root/config/urls.py

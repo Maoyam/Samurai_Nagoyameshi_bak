@@ -31,14 +31,18 @@
             <div class="right-container">
                 <h2><span>ジャンルで探す<span><img src="/static/general/images/search.svg" width="13px" alt=""></span></span></h2>
                 <div class="genre-link">
-                    <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
-                    <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
-                    <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
-                    <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
-                    <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
-                    <a href="#"><img src="/static/general/images/genre_img1.jpg" alt=""></a>
-                </div>
-                <p class="text-link"><span><a href="">スイーツ</a></span><span><a href="">アジアンフード</a></span><span><a href="">中華</a></span><span><a href="">韓国料理</a></span></p>
+                        {% for genre in genres %}
+                            {% if genre.image %}
+                                <a href="#"><img src="{{ genre.image.url }}" alt="{{genre.name}}"></a>
+                                <p>{{genre.name}}</p>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                        {% for genre in genres %}
+                            {% if not genre.image %}
+                                <p class="text-link"><span><a href="#">{{genre.name}}</a></span></p>
+                            {% endif %}
+                        {% endfor %}
             </div>
         </div>
     </main>

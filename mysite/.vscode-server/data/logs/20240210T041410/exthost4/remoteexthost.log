@@ -1,0 +1,24 @@
+2024-02-10 10:17:41.972 [info] Extension host with pid 2933 started
+2024-02-10 10:17:41.973 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock'
+2024-02-10 10:17:42.068 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-10 10:17:42.073 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-10 10:17:42.089 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': The pid 87750 appears to be gone.
+2024-02-10 10:17:42.091 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Deleting a stale lock.
+2024-02-10 10:17:42.121 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Lock acquired.
+2024-02-10 10:17:42.620 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-10 10:17:42.868 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:manage.py'
+2024-02-10 10:17:42.933 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2024-02-10 10:17:43.007 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-02-10 10:17:43.037 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2024-02-10 10:17:43.042 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2024-02-10 10:17:43.048 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2024-02-10 10:17:43.113 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-10 10:17:48.297 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-10 10:17:48.300 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-10 10:17:48.867 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-02-10 10:17:51.102 [info] Eager extensions activated
+2024-02-10 10:17:51.107 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-10 10:17:51.109 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-10 10:21:23.115 [info] Extension host terminating: received terminate message from renderer
+2024-02-10 10:21:23.239 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-02-10 10:21:23.422 [info] Extension host with pid 2933 exiting with code 0

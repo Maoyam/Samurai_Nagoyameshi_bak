@@ -1,0 +1,18 @@
+2024-02-11 02:08:49.850 [info] 実験 'pythonaacf' はアクティブです
+2024-02-11 02:08:49.858 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-02-11 02:08:49.859 [info] 実験 'pythonREPLSmartSend' はアクティブです
+2024-02-11 02:08:49.859 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2024-02-11 02:08:49.860 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-02-11 02:08:49.861 [info] Default formatter is set to null for workspace /root
+2024-02-11 02:08:49.861 [info] Test server listening.
+2024-02-11 02:08:49.864 [info] Python インタープリター パス: /usr/local/bin/python3
+2024-02-11 02:08:52.746 [info] Pylance 言語サーバーを開始しています。
+2024-02-11 02:14:53.960 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 02:27:06.417 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 02:28:06.520 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 02:35:14.333 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 02:35:15.003 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 02:35:15.492 [info] Discover tests for workspace name: root - uri: /root/general/models/genre.py
+2024-02-11 02:38:42.042 [info] Discover tests for workspace name: root - uri: /root/models/area.py
+2024-02-11 02:52:25.819 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-11 02:53:19.948 [info] Discover tests for workspace name: root - uri: /root/general/admin.py

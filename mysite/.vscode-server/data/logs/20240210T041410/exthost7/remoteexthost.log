@@ -1,0 +1,17 @@
+2024-02-12 04:13:52.682 [info] Extension host with pid 20145 started
+2024-02-12 04:13:52.899 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-12 04:13:52.925 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 04:13:52.943 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 04:13:52.946 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 04:13:52.949 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 04:13:52.950 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 04:13:52.956 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 04:13:52.958 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-12 04:13:57.913 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-12 04:14:04.304 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Lock acquired.
+2024-02-12 04:14:06.126 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-12 04:14:06.137 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-12 04:14:08.248 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-12 04:14:08.255 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-12 04:14:08.426 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 04:14:09.983 [info] Eager extensions activated
