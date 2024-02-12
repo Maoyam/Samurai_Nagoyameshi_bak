@@ -24,7 +24,7 @@ from general.views.shop_detail_view import ShopDetailView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('general/', TopView.as_view(), name="top"),
-    path('general/shop_detail/<int:pk>/', ShopDetailView.as_view(), name="shop_detail"),    
+    path('general/shop_detail/', ShopDetailView.as_view(), name="shop_detail"),    
 ]
 
 # MEDIA_URL に対する URL パターンを追加します

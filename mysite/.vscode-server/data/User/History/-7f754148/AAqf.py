@@ -19,12 +19,12 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 from general.views.top_view import TopView
-from general.views.shop_detail_view import ShopDetailView
+from general.views.shop_detail_view import shop_detail
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('general/', TopView.as_view(), name="top"),
-    path('general/shop_detail/<int:pk>/', ShopDetailView.as_view(), name="shop_detail"),    
+    path('general/shop_detail/<int:reataurant_id>/', shop_detail.as_view(), name="shop_detail"),    
 ]
 
 # MEDIA_URL に対する URL パターンを追加します

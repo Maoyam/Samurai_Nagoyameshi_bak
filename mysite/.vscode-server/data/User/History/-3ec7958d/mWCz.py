@@ -1,5 +1,5 @@
 from typing import Any
-from django.views.generic import DetailView
+from django.views.generic import TemplateView
 from ..models.restaurant import Restaurant
 
 class ShopDetailView(DetailView):

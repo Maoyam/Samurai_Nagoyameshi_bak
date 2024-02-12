@@ -20,7 +20,7 @@ class GenreAdmin(admin.ModelAdmin):
     image_preview.short_description = 'Image Preview' 
     
 class RestaurantAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'name_alphabet', 'genre', 'address', 'area', 'phone', 'time', 'price_low', 'price_high', 'information', 'image')
+    list_display = ('id ', 'name', 'genre', 'address', 'area', 'phone', 'time', 'price_low', 'price_high', 'information', 'image')
 
 admin.site.register(Area, AreaAdmin)
 admin.site.register(Genre, GenreAdmin)

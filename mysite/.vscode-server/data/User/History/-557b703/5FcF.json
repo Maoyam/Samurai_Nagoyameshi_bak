@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.tabSize": 2,
+    "git.openRepositoryInParentFolders": "never",
+    "git.enableSmartCommit": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "files.associations": {
+        "*.html": "html"
+    }
+}
