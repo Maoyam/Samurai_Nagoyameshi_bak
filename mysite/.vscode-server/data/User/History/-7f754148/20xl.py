@@ -26,7 +26,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('general/', TopView.as_view(), name="top"),
     path('general/shop_detail/<int:pk>/', ShopDetailView.as_view(), name="shop_detail"),
-    path('general/submit_review/', submit_review, name='submit_review'),
+    path('general/submit_review/' submit_review, name='submit_review'),
 ]
 
 # MEDIA_URL に対する URL パターンを追加します

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}レビュー投稿{% endblock title %}
+</head>
+<body>
+    {% block content %}
+    <h1>Submit Review</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ review_form.as_p }}
+        <h2>Images</h2>
+        {% for image_form in image_forms %}
+            {{ image_form.as_p }}
+        {% endfor %}
+        <button type="submit">Submit Review</button>
+    </form>
+    {% endblock content %}
+</body>
+</html>
