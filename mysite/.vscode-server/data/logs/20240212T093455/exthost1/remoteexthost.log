@@ -1,0 +1,30 @@
+2024-02-12 09:35:08.560 [info] Extension host with pid 318 started
+2024-02-12 09:35:08.562 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock'
+2024-02-12 09:35:08.591 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-12 09:35:08.611 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-12 09:35:08.631 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-02-12 09:35:08.756 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-12 09:35:09.893 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-12 09:35:10.718 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:manage.py'
+2024-02-12 09:35:10.770 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': The pid 20145 appears to be gone.
+2024-02-12 09:35:10.848 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Deleting a stale lock.
+2024-02-12 09:35:11.241 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Lock acquired.
+2024-02-12 09:35:11.498 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-12 09:35:11.521 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-12 09:35:17.131 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 09:35:17.232 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 09:35:17.267 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 09:35:17.276 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 09:35:17.340 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 09:35:30.131 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-12 09:35:30.234 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-12 09:35:31.821 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-02-12 09:35:33.758 [info] Eager extensions activated
+2024-02-12 10:33:32.320 [error] [ms-python.python] provider FAILED
+2024-02-12 10:33:32.346 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:82848
+	at _0x44463a (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:96215)
+	at async $e.provideCompletionItems (/root/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/workbench/api/node/extensionHostProcess.js:150:99151)
+2024-02-12 10:44:37.498 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-02-12 11:09:43.942 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-02-12 11:09:43.954 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'

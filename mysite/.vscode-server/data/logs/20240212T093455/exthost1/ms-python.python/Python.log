@@ -1,0 +1,17 @@
+2024-02-12 09:35:40.485 [info] 実験 'pythonaacf' はアクティブです
+2024-02-12 09:35:40.522 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-02-12 09:35:40.587 [info] 実験 'pythonREPLSmartSend' はアクティブです
+2024-02-12 09:35:40.589 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2024-02-12 09:35:40.598 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-02-12 09:35:40.672 [info] Default formatter is set to null for workspace /root
+2024-02-12 09:35:40.680 [info] Test server listening.
+2024-02-12 09:35:40.691 [info] Python インタープリター パス: /usr/local/bin/python3
+2024-02-12 09:35:53.145 [info] Pylance 言語サーバーを開始しています。
+2024-02-12 10:33:08.035 [info] Discover tests for workspace name: root - uri: /root/commondb/admin.py
+2024-02-12 10:33:11.759 [info] Discover tests for workspace name: root - uri: /root/general/models/restaurant_.py
+2024-02-12 10:33:13.219 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-12 10:34:44.289 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-12 10:35:32.571 [info] Discover tests for workspace name: root - uri: /root/general/views/top_view.py
+2024-02-12 10:36:25.734 [info] Discover tests for workspace name: root - uri: /root/config/settings.py
+2024-02-12 11:07:34.892 [info] Discover tests for workspace name: root - uri: /root/commondb/models/restaurant.py
+2024-02-12 11:08:33.473 [info] Discover tests for workspace name: root - uri: /root/commondb/models/restaurant.py
