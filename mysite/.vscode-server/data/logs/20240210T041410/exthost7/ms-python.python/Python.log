@@ -7,3 +7,34 @@
 2024-02-12 04:14:12.053 [info] Test server listening.
 2024-02-12 04:14:12.054 [info] Python インタープリター パス: /usr/local/bin/python3
 2024-02-12 04:14:16.462 [info] Pylance 言語サーバーを開始しています。
+2024-02-12 05:11:34.981 [info] Discover tests for workspace name: root - uri: /root/general/models/restaurant.py
+2024-02-12 05:12:55.916 [info] Discover tests for workspace name: root - uri: /root/general/models/restaurant.py
+2024-02-12 05:16:42.444 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-12 05:20:27.649 [info] Discover tests for workspace name: root - uri: /root/general/models/restaurant.py
+2024-02-12 05:23:21.089 [info] Discover tests for workspace name: root - uri: /root/general/models/restaurant.py
+2024-02-12 05:24:44.474 [info] Discover tests for workspace name: root - uri: /root/general/models/restaurant.py
+2024-02-12 05:27:01.358 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-12 05:34:09.615 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-12 05:34:24.913 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-12 05:34:56.887 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-12 05:35:14.148 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-12 05:40:54.539 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-12 05:47:45.186 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-12 06:05:00.899 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-12 06:09:13.379 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-12 06:09:36.055 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-12 06:13:00.367 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-12 06:13:25.488 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-12 06:13:56.879 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-12 06:14:08.185 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-12 06:14:11.989 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-12 06:18:28.801 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-12 06:19:46.834 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-12 07:08:45.766 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-12 07:09:14.244 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-12 07:12:50.431 [info] Discover tests for workspace name: root - uri: /root/general/models/restaurant.py
+2024-02-12 07:15:40.707 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-12 07:15:58.495 [info] Discover tests for workspace name: root - uri: /root/general/admin.py
+2024-02-12 07:16:33.209 [info] Discover tests for workspace name: root - uri: /root/general/models/restaurant.py
+2024-02-12 07:19:19.966 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-12 07:28:34.492 [info] Discover tests for workspace name: undefined - uri: /Users/maru/Library/Application Support/Code/User/settings.json
