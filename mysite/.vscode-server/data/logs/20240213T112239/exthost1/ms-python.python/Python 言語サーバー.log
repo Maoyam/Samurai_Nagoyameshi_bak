@@ -1,0 +1,18 @@
+2024-02-13 11:22:58.891 [info] (Client) Pylance async client (2024.2.1) started with python extension (2024.0.1)
+2024-02-13 11:23:00.615 [info] [Info  - 11:23:00 AM] (13904) Pylance language server 2024.2.1 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-13 11:23:00.705 [info] [Info  - 11:23:00 AM] (13904) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist
+2024-02-13 11:23:00.707 [info] [Info  - 11:23:00 AM] (13904) Starting service instance "root"
+2024-02-13 11:23:00.857 [info] [Info  - 11:23:00 AM] (13904) Setting pythonPath for service "root": "/usr/local/bin/python3"
+2024-02-13 11:23:00.858 [info] [Info  - 11:23:00 AM] (13904) Setting environmentName for service "root": "3.11.7 (グローバル)"
+2024-02-13 11:23:00.935 [info] [Info  - 11:23:00 AM] (13904) Assuming Python version 3.11
+2024-02-13 11:23:01.483 [info] [Info  - 11:23:01 AM] (13904) Found 36 source files
+2024-02-13 11:23:01.488 [info] [Info  - 11:23:01 AM] (13904) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist
+2024-02-13 11:23:01.489 [info] [Info  - 11:23:01 AM] (13904) Background analysis(1) started
+2024-02-13 11:52:30.228 [info] [Info  - 11:52:30 AM] (13904) [BG(1)] Long operation: checking: file:///root/general/views/shop_list_view.py (2664ms)
+2024-02-13 11:52:30.230 [info] [Info  - 11:52:30 AM] (13904) [BG(1)] Long operation: analyzing: file:///root/general/views/shop_list_view.py (2668ms)
+2024-02-13 11:52:30.232 [info] [Info  - 11:52:30 AM] (13904) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist (index)
+2024-02-13 11:52:30.234 [info] [Info  - 11:52:30 AM] (13904) Indexing(2) started
+2024-02-13 11:52:33.145 [info] [Info  - 11:52:33 AM] (13904) [IDX(2)] Long operation: scan packages file:///root (3341ms)
+2024-02-13 11:52:33.147 [info] [Info  - 11:52:33 AM] (13904) scanned(2) 41 files over 1 exec env
+2024-02-13 11:52:34.650 [info] [Info  - 11:52:34 AM] (13904) indexed(2) 28 files over 1 exec env
+2024-02-13 11:52:34.682 [info] [Info  - 11:52:34 AM] (13904) Indexing finished(2).

@@ -1,0 +1,9 @@
+2024-02-13 11:22:56.479 [info] 実験 'pythonaacf' はアクティブです
+2024-02-13 11:22:56.480 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-02-13 11:22:56.480 [info] 実験 'pythonREPLSmartSend' はアクティブです
+2024-02-13 11:22:56.481 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2024-02-13 11:22:56.481 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-02-13 11:22:56.481 [info] Default formatter is set to null for workspace /root
+2024-02-13 11:22:56.482 [info] Test server listening.
+2024-02-13 11:22:56.482 [info] Python インタープリター パス: /usr/local/bin/python3
+2024-02-13 11:23:00.744 [info] Pylance 言語サーバーを開始しています。
