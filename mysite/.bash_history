@@ -63,3 +63,34 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 python manage.py runserver
+python manage.py runserver
+python manage.py dumpdata general > data.json
+python manage.py startapp commondb
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata data.json
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py loaddata commondb/ data.json
+python manage.py loaddata commondb/data.json
+pwd
+python manage.py loaddata commondb/fixtures/data.json
+python manage.py loaddata commondb/data.json
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py loaddata data.json
+python manage.py loaddata commondb/data.json
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py makemigrations
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
