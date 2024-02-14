@@ -1,0 +1,25 @@
+2024-02-14 10:33:19.136 [info] (Client) Pylance async client (2024.2.1) started with python extension (2024.0.1)
+2024-02-14 10:33:22.291 [info] [Info  - 10:33:21 AM] (7531) Pylance language server 2024.2.1 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-14 10:33:22.297 [info] [Info  - 10:33:22 AM] (7531) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist
+2024-02-14 10:33:22.298 [info] [Info  - 10:33:22 AM] (7531) Starting service instance "root"
+2024-02-14 10:33:22.967 [info] [Info  - 10:33:22 AM] (7531) Setting pythonPath for service "root": "/usr/local/bin/python3"
+2024-02-14 10:33:22.970 [info] [Info  - 10:33:22 AM] (7531) Setting environmentName for service "root": "3.11.7 (グローバル)"
+2024-02-14 10:33:23.045 [info] [Info  - 10:33:23 AM] (7531) Assuming Python version 3.11
+2024-02-14 10:33:23.598 [info] [Info  - 10:33:23 AM] (7531) Found 37 source files
+2024-02-14 10:33:24.782 [info] [Info  - 10:33:24 AM] (7531) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist
+2024-02-14 10:33:24.789 [info] [Info  - 10:33:24 AM] (7531) Background analysis(1) started
+2024-02-14 10:33:25.228 [info] [Info  - 10:33:25 AM] (7531) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist (index)
+2024-02-14 10:33:25.228 [info] [Info  - 10:33:25 AM] (7531) Indexing(2) started
+2024-02-14 10:33:27.180 [info] [Info  - 10:33:27 AM] (7531) [BG(1)] Long operation: getSemanticTokens range 0:0 - 12:4 at file:///root/commondb/models/user.py (2863ms)
+2024-02-14 10:33:31.516 [info] [Info  - 10:33:31 AM] (7531) [BG(1)] Long operation: checking: file:///root/general/views/shop_list_view.py (3019ms)
+2024-02-14 10:33:31.517 [info] [Info  - 10:33:31 AM] (7531) [BG(1)] Long operation: analyzing: file:///root/general/views/shop_list_view.py (3065ms)
+2024-02-14 10:33:35.132 [info] [Info  - 10:33:35 AM] (7531) [IDX(2)] Long operation: scan packages file:///root (9888ms)
+2024-02-14 10:33:35.137 [info] [Info  - 10:33:35 AM] (7531) scanned(2) 41 files over 1 exec env
+2024-02-14 10:33:39.533 [info] [Info  - 10:33:39 AM] (7531) indexed(2) 28 files over 1 exec env
+2024-02-14 10:33:39.760 [info] [Info  - 10:33:39 AM] (7531) Indexing finished(2).
+2024-02-14 10:41:01.718 [info] [Info  - 10:41:01 AM] (7531) Found 37 source files
+2024-02-14 10:43:18.708 [info] [Info  - 10:43:18 AM] (7531) Found 38 source files
+2024-02-14 10:54:05.392 [info] [Info  - 10:54:05 AM] (7531) Found 39 source files
+2024-02-14 11:39:10.957 [info] [Info  - 11:39:10 AM] (7531) Found 39 source files
+2024-02-14 12:25:02.303 [info] [Info  - 12:25:02 PM] (7531) Found 40 source files
+2024-02-14 12:56:16.592 [info] [Info  - 12:56:16 PM] (7531) Found 41 source files

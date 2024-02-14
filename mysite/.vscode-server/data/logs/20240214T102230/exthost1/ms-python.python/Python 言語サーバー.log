@@ -1,0 +1,17 @@
+2024-02-14 10:23:11.427 [info] (Client) Pylance async client (2024.2.1) started with python extension (2024.0.1)
+2024-02-14 10:23:14.724 [info] [Info  - 10:23:13 AM] (871) Pylance language server 2024.2.1 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-14 10:23:14.735 [info] [Info  - 10:23:14 AM] (871) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist
+2024-02-14 10:23:14.923 [info] [Info  - 10:23:14 AM] (871) Starting service instance "root"
+2024-02-14 10:23:15.408 [info] [Info  - 10:23:15 AM] (871) Setting pythonPath for service "root": "/usr/local/bin/python3"
+2024-02-14 10:23:15.411 [info] [Info  - 10:23:15 AM] (871) Setting environmentName for service "root": "3.11.7 (グローバル)"
+2024-02-14 10:23:15.487 [info] [Info  - 10:23:15 AM] (871) Assuming Python version 3.11
+2024-02-14 10:23:16.161 [info] [Info  - 10:23:16 AM] (871) Found 37 source files
+2024-02-14 10:23:17.345 [info] [Info  - 10:23:17 AM] (871) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist
+2024-02-14 10:23:17.364 [info] [Info  - 10:23:17 AM] (871) Background analysis(1) started
+2024-02-14 10:23:17.815 [info] [Info  - 10:23:17 AM] (871) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist (index)
+2024-02-14 10:23:17.854 [info] [Info  - 10:23:17 AM] (871) Indexing(2) started
+2024-02-14 10:23:20.136 [info] [Info  - 10:23:20 AM] (871) [BG(1)] Long operation: analyzing: file:///root/commondb/admin.py (2891ms)
+2024-02-14 10:23:23.977 [info] [Info  - 10:23:23 AM] (871) [IDX(2)] Long operation: scan packages file:///root (6230ms)
+2024-02-14 10:23:23.978 [info] [Info  - 10:23:23 AM] (871) scanned(2) 41 files over 1 exec env
+2024-02-14 10:23:25.295 [info] [Info  - 10:23:25 AM] (871) indexed(2) 28 files over 1 exec env
+2024-02-14 10:23:25.397 [info] [Info  - 10:23:25 AM] (871) Indexing finished(2).

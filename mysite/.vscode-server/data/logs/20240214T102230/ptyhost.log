@@ -1,0 +1,6 @@
+2024-02-14 10:22:40.684 [info] Revived process, old id d8ab750c9cd34e1a08fc7d8c35f82988-2 -> new id 1
+2024-02-14 10:32:57.647 [info] Expanding terminal instance, old id d8ab750c9cd34e1a08fc7d8c35f82988-2 -> new id 1
+2024-02-14 10:33:01.880 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2024-02-14 10:33:01.883 [info] Persistent process reconnection "1"
+2024-02-14 10:33:02.324 [info] Persistent process "1": Replaying 6095 chars and 1 size events
+2024-02-14 10:37:58.871 [info] Persistent process "2": The short reconnection grace time of 5m has expired, shutting down pid 553

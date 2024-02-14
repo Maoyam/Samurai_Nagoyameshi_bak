@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}店舗レビュー{% endblock title %}
+{% block content %}
+<main>
+  <div class="review_container">
+    <div>
+      <h2>Let's share your experience!</h2>
+      <h1>店舗レビュー</h1>
+    </div>
+    <div>
+      
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for=""></label>
+        <label for="id_name">店名：</label>{{ form.name }}
+        <label for="id_visit_date">訪問日：</label>{{ form.visit_date }}
+        <label for="id_rating">評価：</label>{{ form.rating }}
+        <label for="id_comment">コメント：</label>{{ form.comment }}
+        <div class="form-group">
+          <label for="id_image1">Image 1:</label>
+          <input type="file" class="form-control" id="id_image1" name="image1" accept="image/*" onchange="previewImage(event, 'imagePreview1')">
+          <img id="imagePreview1" src="#" alt="Image Preview" style="display: none; max-width: 200px; max-height: 200px;">
+      </div>
+      <div class="form-group">
+          <label for="id_image2">Image 2:</label>
+          <input type="file" class="form-control" id="id_image2" name="image2" accept="image/*" onchange="previewImage(event, 'imagePreview2')">
+          <img id="imagePreview2" src="#" alt="Image Preview" style="display: none; max-width: 200px; max-height: 200px;">
+      </div>
+      <div class="form-group">
+          <label for="id_image3">Image 3:</label>
+          <input type="file" class="form-control" id="id_image3" name="image3" accept="image/*" onchange="previewImage(event, 'imagePreview3')">
+          <img id="imagePreview3" src="#" alt="Image Preview" style="display: none; max-width: 200px; max-height: 200px;">
+      </div>
+        <button type="submit" style="background-color: #F57F00; color: white;" class="btn">送信</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    function previewImage(event, previewId) {
+      var input = event.target;
+      var preview = document.getElementById(previewId);
+  
+      if (input.files && input.files[0]) {
+          var reader = new FileReader();
+  
+          reader.onload = function (e) {
+              preview.src = e.target.result;
+              preview.style.display = 'block';
+          }
+  
+          reader.readAsDataURL(input.files[0]);
+      } else {
+          preview.src = '#';
+          preview.style.display = 'none';
+      }
+  }
+</script>
+</main>
+{% endblock content %}

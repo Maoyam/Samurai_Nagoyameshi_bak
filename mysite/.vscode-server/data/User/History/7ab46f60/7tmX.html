@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/general/css/stylesheet.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" media="all" rel="stylesheet" type="text/css"/>
+</head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <!-- ロゴ -->
+        <div class="logo-container">
+            <p>名古屋のB級グルメ専門！</p>
+            <h1><a href="{% url 'top' %}"><img src="/static/general/images/logo.png" alt="ロゴ"></a></h1>
+        </div>
+        <!-- ナビゲーション -->
+        <nav>
+            <a href="">ログイン</a>
+            <a href="">新規作成</a>
+        </nav>
+    </header>
+    {% block content %}{% endblock %}
+    <!-- フッター -->
+    <footer>
+        <div>
+            <p><a href="#">会社概要</a></p>
+            <p>&copy;NAGOYAMeSHi 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
