@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}店舗レビュー{% endblock title %}
+{% block content %}
+<main>
+  <div class="review_container">
+    <div>
+      <h2>Let's share your experience!</h2>
+      <h1>店舗レビュー</h1>
+    </div>
+    <div>
+      <p>店舗名：{{restaurant.name}}</p>
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" style="background-color: #F57F00; color: white;" class="btn">送信</button>
+      </form>
+    </div>
+  </div>
+</main>
+{% endblock content %}

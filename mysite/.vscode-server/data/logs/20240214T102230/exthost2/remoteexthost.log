@@ -1,0 +1,30 @@
+2024-02-14 10:33:05.450 [info] Extension host with pid 7128 started
+2024-02-14 10:33:05.556 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/d8ab750c9cd34e1a08fc7d8c35f82988/vscode.lock': Lock acquired.
+2024-02-14 10:33:06.348 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-14 10:33:06.362 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-14 10:33:06.364 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2024-02-14 10:33:06.369 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-02-14 10:33:06.374 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-02-14 10:33:06.375 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2024-02-14 10:33:06.377 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2024-02-14 10:33:06.378 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2024-02-14 10:33:09.237 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-14 10:33:13.003 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-14 10:33:13.007 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-14 10:33:13.244 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-02-14 10:33:17.384 [info] Eager extensions activated
+2024-02-14 10:33:17.393 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-14 10:33:17.394 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-14 10:55:07.087 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-02-14 11:11:59.818 [error] [ms-python.python] provider FAILED
+2024-02-14 11:11:59.848 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:82848
+	at _0x44463a (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:96215)
+	at async $e.provideCompletionItems (/root/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/workbench/api/node/extensionHostProcess.js:150:99151)
+2024-02-14 11:33:41.709 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-02-14 12:37:26.000 [error] [ms-python.python] provider FAILED
+2024-02-14 12:37:26.018 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:82848
+	at _0x44463a (/root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.1/dist/extension.bundle.js:1:96215)
+	at async $e.provideCompletionItems (/root/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/workbench/api/node/extensionHostProcess.js:150:99151)
+2024-02-14 12:52:56.802 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

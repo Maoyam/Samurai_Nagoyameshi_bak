@@ -94,3 +94,11 @@ python manage.py makemigrations
 python manage.py runserver
 python manage.py runserver
 python manage.py runserver
+python manage.py runserver
+python manage.py makemigration
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations commondb
+python3 manage.py makemigrations
+python3 manage.py makemigrations commondb
+python3 manage.py migrate
