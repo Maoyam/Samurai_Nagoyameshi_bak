@@ -102,3 +102,82 @@ python manage.py makemigrations commondb
 python3 manage.py makemigrations
 python3 manage.py makemigrations commondb
 python3 manage.py migrate
+python manage.py showmigrations
+python manage.py showmigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py runserver
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py migrate
+python manage.py makemigrations
+python manage.py makemigrations
+pip install django-phonenumber-field[phonenumbers]
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+printenv > "/tmp/tmp-50750uNV6ac3FLFWR.txt"
+/usr/local/bin/python3 /root/accounts/admin.py
+python manage.py runserver
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+rm accounts/migrations/0007_remove_registereduser_phone_number.py
+rm accounts/migrations/0006_alter_registereduser_phone_number.py
+rm accounts/migrations/0005_alter_registereduser_phone_number.py
+rm accounts/migrations/0004_alter_registereduser_phone_number.py
+rm accounts/migrations/0003_alter_registereduser_phone_number.py
+rm accounts/migrations/0002_registereduser_phone_number.py
+python manage.py makemigrations
+rm accounts/migrations/0001_initial.py
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py runserver
