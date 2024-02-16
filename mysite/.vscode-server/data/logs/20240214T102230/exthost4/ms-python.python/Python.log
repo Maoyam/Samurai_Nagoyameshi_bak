@@ -1,0 +1,36 @@
+2024-02-15 12:24:32.832 [info] 実験 'pythonaacf' はアクティブです
+2024-02-15 12:24:32.833 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-02-15 12:24:32.834 [info] 実験 'pythonREPLSmartSend' はアクティブです
+2024-02-15 12:24:32.834 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2024-02-15 12:24:32.835 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-02-15 12:24:32.835 [info] Default formatter is set to null for workspace /root
+2024-02-15 12:24:32.836 [info] Test server listening.
+2024-02-15 12:24:32.837 [info] Python インタープリター パス: /usr/local/bin/python3
+2024-02-15 12:24:35.400 [info] Pylance 言語サーバーを開始しています。
+2024-02-15 12:26:07.056 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-15 12:26:14.358 [info] Discover tests for workspace name: root - uri: /root/config/settings.py
+2024-02-15 12:39:45.033 [info] Discover tests for workspace name: root - uri: /root/accounts/models.py
+2024-02-15 12:46:49.954 [info] > conda info --json
+2024-02-15 12:46:50.217 [info] Found: /bin/python3 --> /bin/python3.11
+2024-02-15 12:46:50.233 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-02-15 12:46:50.396 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-02-15 12:46:50.403 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-02-15 12:46:50.431 [info] > /usr/local/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-15 12:46:50.573 [info] Found: /usr/local/bin/python --> /usr/local/bin/python3.11
+2024-02-15 12:46:50.580 [info] Found: /usr/local/bin/python3 --> /usr/local/bin/python3.11
+2024-02-15 12:46:50.583 [info] Found: /usr/local/bin/python3.11 --> /usr/local/bin/python3.11
+2024-02-15 12:46:50.663 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-15 12:46:50.790 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-15 12:46:51.334 [info] > /usr/local/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-15 12:47:14.397 [info] Send text to terminal: /usr/local/bin/python3 /root/accounts/admin.py
+2024-02-15 12:55:48.641 [info] Discover tests for workspace name: root - uri: /root/accounts/admin.py
+2024-02-15 12:58:43.518 [info] Discover tests for workspace name: root - uri: /root/accounts/admin.py
+2024-02-15 13:05:49.014 [info] Discover tests for workspace name: root - uri: /root/accounts/admin.py
+2024-02-15 13:05:51.074 [info] Discover tests for workspace name: root - uri: /root/accounts/admin.py
+2024-02-15 13:06:19.787 [info] Discover tests for workspace name: root - uri: /root/accounts/admin.py
+2024-02-15 13:07:59.082 [info] Discover tests for workspace name: root - uri: /root/accounts/admin.py
+2024-02-15 13:09:56.159 [info] Discover tests for workspace name: root - uri: /root/accounts/models.py
+2024-02-15 13:13:55.880 [info] Discover tests for workspace name: root - uri: /root/accounts/views.py
+2024-02-15 13:21:51.966 [info] Discover tests for workspace name: root - uri: /root/accounts/views.py
+2024-02-15 13:35:59.387 [info] Discover tests for workspace name: root - uri: /root/accounts/admin.py
+2024-02-15 13:38:49.040 [info] Discover tests for workspace name: root - uri: /root/accounts/admin.py

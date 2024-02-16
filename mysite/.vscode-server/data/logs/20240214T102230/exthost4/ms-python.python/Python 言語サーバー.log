@@ -1,0 +1,45 @@
+2024-02-15 12:24:33.757 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-15 12:24:35.349 [info] [Info  - 12:24:34 PM] (50939) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-15 12:24:35.355 [info] [Info  - 12:24:35 PM] (50939) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-15 12:24:35.357 [info] [Info  - 12:24:35 PM] (50939) Starting service instance "root"
+2024-02-15 12:24:35.477 [info] [Info  - 12:24:35 PM] (50939) Setting pythonPath for service "root": "/usr/local/bin/python3"
+2024-02-15 12:24:35.485 [info] [Info  - 12:24:35 PM] (50939) Setting environmentName for service "root": "3.11.7 (グローバル)"
+2024-02-15 12:24:35.548 [info] [Info  - 12:24:35 PM] (50939) Assuming Python version 3.11
+2024-02-15 12:24:36.290 [info] [Info  - 12:24:36 PM] (50939) Found 55 source files
+2024-02-15 12:24:37.102 [info] [Info  - 12:24:37 PM] (50939) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-15 12:24:37.102 [info] [Info  - 12:24:37 PM] (50939) Background analysis(1) started
+2024-02-15 12:24:37.607 [info] [Info  - 12:24:37 PM] (50939) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-15 12:24:37.612 [info] [Info  - 12:24:37 PM] (50939) Indexing(2) started
+2024-02-15 12:24:40.109 [info] [Info  - 12:24:40 PM] (50939) [BG(1)] Long operation: analyzing: file:///root/accounts/models.py (3045ms)
+2024-02-15 12:24:42.851 [info] [Info  - 12:24:42 PM] (50939) [IDX(2)] Long operation: scan packages file:///root (5287ms)
+2024-02-15 12:24:42.863 [info] [Info  - 12:24:42 PM] (50939) scanned(2) 43 files over 1 exec env
+2024-02-15 12:24:46.530 [info] [Info  - 12:24:46 PM] (50939) [IDX(2)] Long operation: index execution environment file:///root (2565ms)
+2024-02-15 12:24:46.580 [info] [Info  - 12:24:46 PM] (50939) [IDX(2)] Long operation: index packages file:///root (2630ms)
+2024-02-15 12:24:46.581 [info] [Info  - 12:24:46 PM] (50939) indexed(2) 29 files over 1 exec env
+2024-02-15 12:24:46.683 [info] [Info  - 12:24:46 PM] (50939) Indexing finished(2).
+2024-02-15 12:34:02.842 [info] [Info  - 12:34:02 PM] (50939) Found 55 source files
+2024-02-15 12:34:43.623 [info] [Info  - 12:34:43 PM] (50939) Found 53 source files
+2024-02-15 12:34:56.191 [info] [Info  - 12:34:56 PM] (50939) Found 53 source files
+2024-02-15 12:35:08.351 [info] [Info  - 12:35:08 PM] (50939) Found 52 source files
+2024-02-15 12:35:21.195 [info] [Info  - 12:35:21 PM] (50939) Found 51 source files
+2024-02-15 12:36:06.721 [info] [Info  - 12:36:06 PM] (50939) Found 50 source files
+2024-02-15 12:36:53.273 [info] [Info  - 12:36:53 PM] (50939) Found 48 source files
+2024-02-15 12:36:58.929 [info] [Info  - 12:36:58 PM] (50939) Found 49 source files
+2024-02-15 12:45:34.480 [info] [Error - 12:45:34 PM] Server process exited with code 0.
+2024-02-15 12:45:35.084 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-15 12:45:36.141 [info] [Info  - 12:45:36 PM] (64708) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-15 12:45:36.144 [info] [Info  - 12:45:36 PM] (64708) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-15 12:45:36.151 [info] [Info  - 12:45:36 PM] (64708) Starting service instance "root"
+2024-02-15 12:45:36.249 [info] [Info  - 12:45:36 PM] (64708) Setting pythonPath for service "root": "/usr/local/bin/python3"
+2024-02-15 12:45:36.255 [info] [Info  - 12:45:36 PM] (64708) Setting environmentName for service "root": "3.11.7 (グローバル)"
+2024-02-15 12:45:36.368 [info] [Info  - 12:45:36 PM] (64708) Assuming Python version 3.11
+2024-02-15 12:45:37.176 [info] [Info  - 12:45:37 PM] (64708) Found 49 source files
+2024-02-15 12:45:37.533 [info] [Info  - 12:45:37 PM] (64708) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-15 12:45:37.539 [info] [Info  - 12:45:37 PM] (64708) Background analysis(1) started
+2024-02-15 12:45:38.583 [info] [Info  - 12:45:38 PM] (64708) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-15 12:45:38.585 [info] [Info  - 12:45:38 PM] (64708) Indexing(2) started
+2024-02-15 12:45:39.950 [info] [Info  - 12:45:39 PM] (64708) [BG(1)] Long operation: analyzing: file:///root/accounts/admin.py (2243ms)
+2024-02-15 12:45:41.824 [info] [Info  - 12:45:41 PM] (64708) [IDX(2)] Long operation: scan packages file:///root (3322ms)
+2024-02-15 12:45:41.824 [info] [Info  - 12:45:41 PM] (64708) scanned(2) 43 files over 1 exec env
+2024-02-15 12:45:42.794 [info] [Info  - 12:45:42 PM] (64708) indexed(2) 29 files over 1 exec env
+2024-02-15 12:45:42.911 [info] [Info  - 12:45:42 PM] (64708) Indexing finished(2).
