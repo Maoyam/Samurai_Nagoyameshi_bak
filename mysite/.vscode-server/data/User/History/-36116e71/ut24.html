@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block title %}マイページ{% endblock %}
+{% block content %}
+<div class="mypg_container">
+  <!-- 新しい予約一覧 -->
+  <h2>予約一覧</h2>
+  <div class="new_booking_container tbl_container">
+    <table>
+      <thead>
+          <tr>
+              <th>予約日時</th>
+              <th>予約人数</th>
+              <th>店舗名</th>
+              <th></th>
+          </tr>
+      </thead>
+      <tbody>
+          <!-- ここにループ処理を追加 -->
+          <tr>
+              <td>2024/02/20 14:00</td>
+              <td>2人</td>
+              <td>テスト店舗</td>
+              <td><a href="#">店舗詳細を見る</a></td>
+          </tr>
+          <tr>
+              <td>2024/02/21 18:30</td>
+              <td>4人</td>
+              <td>サンプル店舗</td>
+              <td><a href="#">店舗詳細を見る</a></td>
+          </tr>
+          <!-- ループ終了 -->
+      </tbody>
+  </table>
+  </div>
+  <!-- お気に入り店舗とレビュー一覧 -->
+  <div class="fav_rev_container">
+    <!-- お気に入り店舗一覧 -->
+    
+    <div class="fav_rev_item">
+      <h2>Myお気に入り一覧</h2>
+      <table class="fav_rev_tbl tbl_container">
+        <thead>
+            <tr>
+                <th>店舗名</th>
+                <th>カテゴリ名</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- ここにループ処理を追加 -->
+            <tr>
+                <td>おみせのなまえ</td>
+                <td>名古屋メシ</td>
+                <td><a href="#">詳細を見る</a></td>
+            </tr>
+            <tr>
+                <td>おみせのなまえ</td>
+                <td>イタリアン</td>
+                <td><a href="#">詳細を見る</a></td>
+            </tr>
+            <!-- ループ終了 -->
+        </tbody>
+    </table>
+    </div>
+    <!-- レビュー一覧 -->
+    <div class="fav_rev_item">
+      <h2>Myレビュー一覧</h2>
+      <table class="fav_rev_tbl tbl_container">
+        <thead>
+            <tr>
+                <th>店舗名</th>
+                <th>訪問日</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- ここにループ処理を追加 -->
+            <tr>
+                <td>おみせのなまえ</td>
+                <td>2024/02/21</td>
+                <td><a href="#">詳細を見る</a></td>
+            </tr>
+            <tr>
+                <td>おみせのなまえ</td>
+                <td>2024/02/21</td>
+                <td><a href="#">詳細を見る</a></td>
+            </tr>
+            <!-- ループ終了 -->
+        </tbody>
+    </table>
+    </div>
+  </div>
+</div>
+{% endblock %}
