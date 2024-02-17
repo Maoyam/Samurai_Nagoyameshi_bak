@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load bootstrap4 %}
+
+{% block title %}会員ログイン{% endblock %}
+{% block content %}
+  <body>
+    <div class="container">
+        <form method="post">
+        {% csrf_token %}
+        {{ form|bootstrap }}
+        <input type="submit" class="btn review_submit_btn" value="ログイン">
+      </form>
+    </div>
+{% endblock %}

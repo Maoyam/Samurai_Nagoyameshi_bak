@@ -1,9 +1,0 @@
-Logger Init
-Initialization complete.
-Loaded supported calls (Version 1.5)
-Batch of 2 Total time: 516ms (Avg. Per Call: 258ms)
-Batch of 2 Total time: 719ms (Avg. Per Call: 360ms)
-getSourceText: unexpected node type 'import_prefix'
-Batch of 2 Total time: 671ms (Avg. Per Call: 336ms)
-Batch of 1 Total time: 687ms (Avg. Per Call: 687ms)
-Batch of 2 Total time: 765ms (Avg. Per Call: 383ms)
