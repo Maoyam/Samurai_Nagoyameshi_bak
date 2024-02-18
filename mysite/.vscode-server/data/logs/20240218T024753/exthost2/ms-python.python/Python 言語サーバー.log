@@ -1,0 +1,18 @@
+2024-02-18 14:27:29.411 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-18 14:27:30.465 [info] [Info  - 2:27:30 PM] (77616) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-18 14:27:30.598 [info] [Info  - 2:27:30 PM] (77616) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-18 14:27:30.598 [info] [Info  - 2:27:30 PM] (77616) Starting service instance "root"
+2024-02-18 14:27:30.747 [info] [Info  - 2:27:30 PM] (77616) Setting pythonPath for service "root": "/usr/local/bin/python3"
+2024-02-18 14:27:30.747 [info] [Info  - 2:27:30 PM] (77616) Setting environmentName for service "root": "3.12.1 (グローバル)"
+2024-02-18 14:27:30.811 [info] [Info  - 2:27:30 PM] (77616) Assuming Python version 3.11
+2024-02-18 14:27:31.332 [info] [Info  - 2:27:31 PM] (77616) Found 48 source files
+2024-02-18 14:27:32.297 [info] [Info  - 2:27:32 PM] (77616) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-18 14:27:32.299 [info] [Info  - 2:27:32 PM] (77616) Background analysis(1) started
+2024-02-18 14:27:32.723 [info] [Info  - 2:27:32 PM] (77616) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-18 14:27:32.725 [info] [Info  - 2:27:32 PM] (77616) Indexing(2) started
+2024-02-18 14:27:34.899 [info] [Info  - 2:27:34 PM] (77616) [BG(1)] Long operation: analyzing: file:///root/general/forms.py (2640ms)
+2024-02-18 14:27:37.674 [info] [Info  - 2:27:37 PM] (77616) [IDX(2)] Long operation: scan packages file:///root (4937ms)
+2024-02-18 14:27:37.675 [info] [Info  - 2:27:37 PM] (77616) scanned(2) 41 files over 1 exec env
+2024-02-18 14:27:38.883 [info] [Info  - 2:27:38 PM] (77616) indexed(2) 28 files over 1 exec env
+2024-02-18 14:27:38.973 [info] [Info  - 2:27:38 PM] (77616) Indexing finished(2).
+2024-02-18 14:33:04.064 [info] [Info  - 2:33:04 PM] (77616) Found 49 source files
