@@ -1,0 +1,49 @@
+2024-02-18 02:48:32.473 [info] 実験 'pythonaacf' はアクティブです
+2024-02-18 02:48:32.476 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-02-18 02:48:32.528 [info] 実験 'pythonREPLSmartSend' はアクティブです
+2024-02-18 02:48:32.530 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2024-02-18 02:48:32.549 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-02-18 02:48:32.551 [info] Default formatter is set to null for workspace /root
+2024-02-18 02:48:32.697 [info] Test server listening.
+2024-02-18 02:48:43.476 [info] > /usr/local/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 02:48:47.237 [info] Python インタープリター パス: /usr/local/bin/python3
+2024-02-18 02:49:05.495 [info] Pylance 言語サーバーを開始しています。
+2024-02-18 04:26:45.988 [info] Discover tests for workspace name: root - uri: /root/general/views/logout.py
+2024-02-18 04:27:06.644 [info] Discover tests for workspace name: root - uri: /root/general/views/logout.py
+2024-02-18 04:28:58.949 [info] Discover tests for workspace name: root - uri: /root/config/urls.py
+2024-02-18 04:34:22.865 [info] Discover tests for workspace name: root - uri: /root/general/views/logout.py
+2024-02-18 04:38:56.854 [info] Discover tests for workspace name: root - uri: /root/general/views/logout.py
+2024-02-18 05:41:19.400 [info] Discover tests for workspace name: root - uri: /root/config/settings.py
+2024-02-18 06:35:02.196 [info] Discover tests for workspace name: root - uri: /root/commondb/models/user.py
+2024-02-18 06:35:25.940 [info] Discover tests for workspace name: root - uri: /root/commondb/models/user.py
+2024-02-18 06:43:52.143 [info] Discover tests for workspace name: root - uri: /root/commondb/models/user.py
+2024-02-18 06:44:28.057 [info] Discover tests for workspace name: root - uri: /root/commondb/models/user.py
+2024-02-18 06:44:31.446 [info] Discover tests for workspace name: root - uri: /root/general/views/paid_user_view.py
+2024-02-18 06:44:32.882 [info] Discover tests for workspace name: root - uri: /root/commondb/models/user.py
+2024-02-18 06:45:41.426 [info] Discover tests for workspace name: root - uri: /root/commondb/models/user.py
+2024-02-18 07:11:00.027 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-18 07:21:05.831 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-18 07:52:59.065 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-18 10:09:02.262 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-18 10:17:09.780 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-18 10:28:42.201 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_detail_view.py
+2024-02-18 10:47:49.923 [info] Discover tests for workspace name: root - uri: /root/general/views/shop_review_view.py
+2024-02-18 10:53:53.514 [info] Discover tests for workspace name: root - uri: /root/commondb/models/review.py
+2024-02-18 10:57:59.762 [info] Discover tests for workspace name: root - uri: /root/commondb/models/review.py
+2024-02-18 11:00:17.728 [info] Discover tests for workspace name: root - uri: /root/commondb/admin.py
+2024-02-18 11:00:36.222 [info] Discover tests for workspace name: root - uri: /root/commondb/admin.py
+2024-02-18 13:34:02.364 [info] Discover tests for workspace name: root - uri: /root/commondb/models/user.py
+2024-02-18 13:59:12.069 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 13:59:32.175 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 13:59:51.805 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:08:26.283 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:13:59.383 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:15:53.482 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:17:27.322 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:18:06.877 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:20:09.135 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:20:30.222 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:24:02.568 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:24:41.951 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:24:46.409 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
+2024-02-18 14:25:33.271 [info] Discover tests for workspace name: root - uri: /root/general/forms.py
