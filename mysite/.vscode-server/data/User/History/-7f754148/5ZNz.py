@@ -23,7 +23,7 @@ from general.views.login import LoginView
 from general.views.logout import LogoutView
 from general.views.shop_detail_view import ShopDetailView
 from general.views.shop_list_view import ShopListView
-from general.views.review_view import SubmitReviewView, ReviewConfirmationView
+from general.views.review_view import submit_review, review_confirm
 from general.views.mypage_view import MypageView
 from general.views.user_register_view import RegisterView
 
@@ -34,8 +34,8 @@ urlpatterns = [
     path('general/logout/', LogoutView.as_view(), name="logout"),
     path('general/shop_detail/<int:pk>/', ShopDetailView.as_view(), name="shop_detail"),
     path('general/shop_list/', ShopListView.as_view(), name="shop_list"),
-    path('general/submit_review/<int:restaurant_id>/', SubmitReviewView.as_view(), name="submit_review"),
-    path('general/review_confirmation/<int:restaurant_id>/', ReviewConfirmationView.as_view(), name="review_confirmation"), 
+    path('general/submit_review/<int:restaurant_id>/', submit_review, name="submit_review"),
+    path('general/review_confirm/<int:review_id>/', review_confirm, name="review_confirm"),
     path('general/mypage/', MypageView.as_view(), name='mypage'),
     path('general/register/', RegisterView.as_view(), name="register"),
 ]

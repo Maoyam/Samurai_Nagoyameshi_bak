@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}レビュー確認{% endblock %}
+{% block content %}
+<main>
+  <div class="review_container">
+    <div class="review_title">
+      <p>レビュー内容を確認してください。</p>
+    </div>
+    <div>
+      <p>ユーザー名: {{ review_form.user }}</p>
+      <p>店名: {{ restaurant.name }}</p>
+      <p>訪問日: {{ review_form.visit_date }}</p>
+      <p>評価: {{ review_form.rating }}</p>
+      <p>コメント: {{ review_form.comment }}</p>
+      <!-- 画像のプレビューなど、その他の入力項目も表示 -->
+      {% if review_form.image1.value %}
+      <img src="{{ review_form.image1.url }}" alt="Image 1">
+      {% endif %}
+      {% if review_form.image2.value %}
+        <img src="{{ review_form.image2.url }}" alt="Image 2">
+      {% endif %}
+      {% if review_form.image3.value %}
+      <img src="{{ review_form.image3.url }}" alt="Image 3">
+     {% endif %}
+      <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-primary">送信</button>
+        <button type="button" onclick="history.back()" class="btn btn-secondary">戻る</button>
+      </form>
+    </div>
+  </div>
+</main>
+{% endblock %}
