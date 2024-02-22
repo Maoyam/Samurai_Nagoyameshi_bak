@@ -1,1 +1,0 @@
-from commondb.models.user import User

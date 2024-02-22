@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load bootstrap %}
+{% block title %}新規登録{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>新規アカウント登録</h2>
+    <form method="post">
+      {% csrf_token %}
+      {% bootstrap_form form layout='vertical' %}
+      <button type="submit" class="btn btn-primary" style="background-color: #F57F00; color: #FFFFFF;">登録</button>
+    </form>
+  </div>
+{% endblock %}
