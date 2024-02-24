@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {},
+    "git.openRepositoryInParentFolders": "never",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    }
+}

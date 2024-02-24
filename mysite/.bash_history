@@ -255,3 +255,9 @@ python manage.py runserver
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python --version
+python --version
+python manage.py runserver
+python manage.py runserver
