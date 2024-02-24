@@ -19,7 +19,7 @@ class ReviewForm(forms.ModelForm):
             'image3': '画像',
         }
         widgets = {
-            'visit_date': DateInput(attrs={'class': 'form-control',"type": "date",'max': date.today().strftime('%Y-%m-%d')}),
+            'visit_date': forms.DateInput(attrs={'class': 'form-control',"type": "date",'max': date.today().strftime('%Y-%m-%d')}),
             'rating': forms.Select(attrs={'class': 'form-select'}),
             'comment': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
             'image1': forms.FileInput(attrs={'class': 'form-control'}),

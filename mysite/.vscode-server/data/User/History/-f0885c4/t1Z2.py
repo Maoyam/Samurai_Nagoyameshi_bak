@@ -31,7 +31,7 @@ class RestaurantAdmin(admin.ModelAdmin):
 
 # レビュー
 class ReviewAdmin(admin.ModelAdmin):
-    list_display = ('id', 'restaurant', 'user', 'visit_date', 'rating', 'comment', 'image1', 'image2', 'image3')
+    list_display = ('id', 'restaurant', 'user', 'visit_date', 'rating', 'comment')
 
 admin.site.register(User)
 admin.site.register(Area, AreaAdmin)

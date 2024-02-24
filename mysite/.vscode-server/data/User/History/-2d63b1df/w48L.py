@@ -1,6 +1,4 @@
 from django import forms
-from django.forms.widgets import DateInput
-from datetime import date
 from commondb.models.review import Review
 from commondb.models.user import User
 from django.contrib.auth.forms import UserCreationForm
@@ -19,7 +17,7 @@ class ReviewForm(forms.ModelForm):
             'image3': '画像',
         }
         widgets = {
-            'visit_date': DateInput(attrs={'class': 'form-control',"type": "date",'max': date.today().strftime('%Y-%m-%d')}),
+            'visit_date': forms.DateInput(attrs={'class': 'form-control',"type": "date",'max': date.today().strftime('%Y-%m-%d')}),
             'rating': forms.Select(attrs={'class': 'form-select'}),
             'comment': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
             'image1': forms.FileInput(attrs={'class': 'form-control'}),

@@ -20,7 +20,7 @@ class SubmitReviewView(View):
             review.save()
             
             request.session['restaurant_id'] = restaurant_id           
-            return redirect('top')
+            return redirect('review_confirmation')
         return render(request, 'general/submit_review.html', {'form': form, 'restaurant': restaurant})
 
 class ReviewConfirmationView(View):

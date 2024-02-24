@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views import View
-from commondb.models.restaurant import Restaurant
+from commondb.models import Restaurant
 
 class SearchView(View):
     def get(self, request):
