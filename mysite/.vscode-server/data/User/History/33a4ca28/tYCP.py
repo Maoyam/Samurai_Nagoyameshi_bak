@@ -14,9 +14,6 @@ class MypageView(TemplateView):
         # ログイン中のユーザーのIDを取得
         user_id = self.request.user.id
         
-        # 現在の日付を取得
-        current_date = datetime.date.today()
-        
         # ログイン中のユーザーの過去の予約オブジェクトを取得
         past_bookings = Booking.objects.filter(user_id=user_id, booking_date__lt=current_date)
         

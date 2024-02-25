@@ -1,5 +1,4 @@
 from typing import Any
-import datetime
 from commondb.models.booking import Booking
 from commondb.models.review import Review
 from commondb.models.favorite import Favorite
@@ -14,25 +13,12 @@ class MypageView(TemplateView):
         # ログイン中のユーザーのIDを取得
         user_id = self.request.user.id
         
-        # 現在の日付を取得
-        current_date = datetime.date.today()
-        
-        # ログイン中のユーザーの過去の予約オブジェクトを取得
-        past_bookings = Booking.objects.filter(user_id=user_id, booking_date__lt=current_date)
-        
-        # ログイン中のユーザーの将来の予約オブジェクトを取得
-        future_bookings = Booking.objects.filter(user_id=user_id, booking_date__gte=current_date)
-        
         # Favoriteオブジェクトを取得し、関連するRestaurantオブジェクトも同時に取得する
         favorites_with_restaurant = Favorite.objects.select_related('restaurant').filter(user_id=user_id)
-        
-        # コンテキストに過去の予約と将来の予約を追加
-        context['past_bookings'] = past_bookings
-        context['future_bookings'] = future_bookings
-        
+        # modelで定義した予約のオブジェクトを取得
+        context['bookings'] = Booking.objects.filter(user_id=user_id)
         # modelで定義したレビューのオブジェクトを取得
         context['reviews'] = Review.objects.filter(user_id=user_id)
-        
         # お気に入りのオブジェクトとそれに関連するRestaurantオブジェクトをコンテキストに追加
         context['favorites'] = favorites_with_restaurant
 
