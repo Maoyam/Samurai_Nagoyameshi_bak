@@ -3,7 +3,6 @@ from .models.area import Area
 from .models.genre import Genre
 from .models.restaurant import Restaurant
 from .models.review import Review
-from .models.booking import Booking
 from django.utils.safestring import mark_safe
 from django.contrib.auth import get_user_model
 
@@ -43,4 +42,3 @@ admin.site.register(Area, AreaAdmin)
 admin.site.register(Genre, GenreAdmin)
 admin.site.register(Restaurant, RestaurantAdmin)
 admin.site.register(Review, ReviewAdmin)
-admin.site.register(Booking, BookingAdmin)

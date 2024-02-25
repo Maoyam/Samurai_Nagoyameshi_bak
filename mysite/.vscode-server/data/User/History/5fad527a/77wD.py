@@ -1,6 +1,7 @@
 from typing import Any
 from django.views.generic import TemplateView
 from commondb.models.review import Review
+from commondb.models.restaurant import Restaurant
 
 
 class ShopReviewView(TemplateView):

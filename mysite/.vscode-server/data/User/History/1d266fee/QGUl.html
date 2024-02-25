@@ -87,7 +87,7 @@
                 <h3>このお店を予約</h3>
             </div>
             
-            <form method="post" class="booking_form">
+            <form method="post" enctype="multipart/form-data" class="booking_form">
                 <div>
                     {% csrf_token %} 
                     {{ form }}
