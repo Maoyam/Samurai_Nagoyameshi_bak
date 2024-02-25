@@ -37,6 +37,6 @@ class MypageView(TemplateView):
         # お気に入りのオブジェクトとそれに関連するRestaurantオブジェクトをコンテキストに追加
         context['favorites'] = favorites_with_restaurant
         
-        context['user'] =self.request.user
+        context['user'] =User.objects.filter(id=id)
 
         return context

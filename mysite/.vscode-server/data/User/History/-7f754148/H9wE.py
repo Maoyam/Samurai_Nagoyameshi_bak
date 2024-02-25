@@ -25,7 +25,7 @@ from general.views.shop_detail_view import ShopDetailView
 from general.views.shop_list_view import SearchView, GenreFilterView, AreaFilterView
 from general.views.review_view import SubmitReviewView, ReviewConfirmationView
 from general.views.mypage_view import MypageView
-from general.views.user_update_view import UserUpdateView
+from general.views.user_edit_view import UserEditView
 from general.views.user_register_view import RegisterView
 
 urlpatterns = [
@@ -41,7 +41,7 @@ urlpatterns = [
     path('general/review_confirmation/<int:restaurant_id>/', ReviewConfirmationView.as_view(), name="review_confirmation"), 
     path('general/mypage/', MypageView.as_view(), name='mypage'),
     path('general/register/', RegisterView.as_view(), name="register"),
-    path('general/user_update/<int:pk>/', UserUpdateView.as_view(), name="user_update")
+    path('general/user_edit/<int:pk>/', UserEditView.as_view(), name="user_edit")
 ]
 
 # MEDIA_URL に対する URL パターンを追加します
