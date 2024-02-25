@@ -16,17 +16,15 @@
           </tr>
       </thead>
       <tbody>
-          <!-- ここに予約詳細ループ処理を追加 -->  
-          {% for booking in bookings %}      
+          <!-- ここに予約詳細ループ処理を追加 -->        
           <tr>
-              
+              {% for booking in bookings %}
               <td>{{booking.booking_date}} {{booking.booking_time}}</td>
               <td>{{booking.numbers_of_ppl}}</td>
               <td>{{booking.restaurant}}</td>
-              
+              {% endfor %}
               <td><a href="#">店舗詳細を見る</a></td>
           </tr>
-          {% endfor %}
       </tbody>
   </table>
   </div>
@@ -46,14 +44,22 @@
               </tr>
           </thead>
           <tbody>
+              <!-- ここにループ処理を追加 -->
               {% for favorite in favorites %}
-              <tr>
-              <!-- ここにループ処理を追加 -->  
               <td>{{favorite.restaurant}}</td>
               <td>{{favorite.restaurant.genre.name}}</td>
               <td><a href="#">詳細を見る</a></td>
-              </tr>
               {% endfor %}
+              {% comment %} <tr>
+                  <td>おみせのなまえ</td>
+                  <td>名古屋メシ</td>
+                  <td><a href="#">詳細を見る</a></td>
+              </tr>
+              <tr>
+                  <td>おみせのなまえ</td>
+                  <td>イタリアン</td>
+                  <td><a href="#">詳細を見る</a></td>
+              </tr> {% endcomment %}
               <!-- ループ終了 -->
           </tbody>
         </table>
@@ -73,15 +79,16 @@
           </thead>
           <tbody>
               <!-- ここにループ処理を追加 -->
-              {% for review in reviews %}
               <tr>
-                
-                <td>{{review.restaurant}}</td>
-                <td>{{review.visit_date}}</td>
-                <td><a href="#">詳細を見る</a></td>
-                
+                  <td>おみせのなまえ</td>
+                  <td>2024/02/21</td>
+                  <td><a href="#">詳細を見る</a></td>
               </tr>
-              {% endfor %}
+              <tr>
+                  <td>おみせのなまえ</td>
+                  <td>2024/02/21</td>
+                  <td><a href="#">詳細を見る</a></td>
+              </tr>
               <!-- ループ終了 -->
           </tbody>
         </table>

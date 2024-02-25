@@ -16,17 +16,15 @@
           </tr>
       </thead>
       <tbody>
-          <!-- ここに予約詳細ループ処理を追加 -->  
-          {% for booking in bookings %}      
+          <!-- ここに予約詳細ループ処理を追加 -->        
           <tr>
-              
+              {% for booking in bookings %}
               <td>{{booking.booking_date}} {{booking.booking_time}}</td>
               <td>{{booking.numbers_of_ppl}}</td>
               <td>{{booking.restaurant}}</td>
-              
+              {% endfor %}
               <td><a href="#">店舗詳細を見る</a></td>
           </tr>
-          {% endfor %}
       </tbody>
   </table>
   </div>

@@ -37,7 +37,7 @@ class ReviewAdmin(admin.ModelAdmin):
     
 # 予約
 class BookingAdmin(admin.ModelAdmin):
-    list_display = ('id', 'restaurant', 'user', 'booking_date', 'booking_time', 'numbers_of_ppl', 'create_date')
+    list_display = ('id', 'restaurant', 'user', 'booking_date', 'numbers_of_ppl', 'create_date')
     
 # お気に入り
 class FavoriteAdmin(admin.ModelAdmin):

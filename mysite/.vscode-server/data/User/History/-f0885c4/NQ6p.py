@@ -4,7 +4,6 @@ from .models.genre import Genre
 from .models.restaurant import Restaurant
 from .models.review import Review
 from .models.booking import Booking
-from .models.favorite import Favorite
 from django.utils.safestring import mark_safe
 from django.contrib.auth import get_user_model
 
@@ -37,10 +36,10 @@ class ReviewAdmin(admin.ModelAdmin):
     
 # 予約
 class BookingAdmin(admin.ModelAdmin):
-    list_display = ('id', 'restaurant', 'user', 'booking_date', 'booking_time', 'numbers_of_ppl', 'create_date')
+    list_display = ('id', 'restaurant', 'user', 'booking_date', 'numbers_of_ppl', 'create_date')
     
 # お気に入り
-class FavoriteAdmin(admin.ModelAdmin):
+class BookingAdmin(admin.ModelAdmin):
     list_display = ('id', 'restaurant', 'user', 'create_date')
     
 admin.site.register(User)
@@ -49,4 +48,3 @@ admin.site.register(Genre, GenreAdmin)
 admin.site.register(Restaurant, RestaurantAdmin)
 admin.site.register(Review, ReviewAdmin)
 admin.site.register(Booking, BookingAdmin)
-admin.site.register(Favorite, FavoriteAdmin)
