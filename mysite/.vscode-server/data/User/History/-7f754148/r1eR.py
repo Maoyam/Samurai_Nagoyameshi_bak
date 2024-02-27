@@ -43,7 +43,7 @@ urlpatterns = [
     path('general/filter/area/<int:area>/', AreaFilterView.as_view(), name="shop_list_area"),
     path('general/submit_review/<int:restaurant_id>/', SubmitReviewView.as_view(), name="submit_review"),
     path('general/review_confirmation/<int:restaurant_id>/', ReviewConfirmationView.as_view(), name="review_confirmation"), 
-    path('general/mypage/<int:pk>', MypageView.as_view(), name='mypage'),
+    path('general/mypage/', MypageView.as_view(), name='mypage'),
     path('general/register/', RegisterView.as_view(), name="register"),
     path('general/user_update/<int:pk>/', UserUpdateView.as_view(), name="user_update")
 ]
