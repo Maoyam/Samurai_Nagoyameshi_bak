@@ -5,8 +5,9 @@ from commondb.models.review import Review
 from commondb.models.favorite import Favorite
 from commondb.models.user import User
 from django.views.generic import TemplateView
+from django.contrib.auth.mixins import LoginRequiredMixin
 
-class MypageView(TemplateView):
+class MypageView(LoginRequiredMixin, TemplateView):
     template_name = "general/mypage.html"
     
     def get_context_data(self, **kwargs: Any):
@@ -27,7 +28,7 @@ class MypageView(TemplateView):
         # Favoriteオブジェクトを取得し、関連するRestaurantオブジェクトも同時に取得する
         favorites_with_restaurant = Favorite.objects.select_related('restaurant').filter(user_id=user_id)
         
-        # コンテキストに過去の予約と将来の予約を追加
+        # コンテキストに過去の予約と新規予約を追加
         context['past_bookings'] = past_bookings
         context['future_bookings'] = future_bookings
         
