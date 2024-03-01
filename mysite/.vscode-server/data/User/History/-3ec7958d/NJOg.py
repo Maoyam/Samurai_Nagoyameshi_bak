@@ -9,7 +9,7 @@ from commondb.models.review import Review
 class ShopDetailView(DetailView):
     model = Restaurant
     #詳細ページのテンプレート名
-    template_name = 'general/shop_detail.html'
+    template_name = "general/shop_detail.html"
     # テンプレート内でのオブジェクトの名前
     context_object_name = 'restaurant'
     
@@ -37,7 +37,7 @@ class BookingCreateView(CreateView):
 
 
 class ShopReviewView(TemplateView):
-    template_name = 'general/shop_detail.html'
+    template_name = "general/shop_detail.html"
     
     def get_context_data(self, **kwargs: Any):
         context = super().get_context_data(**kwargs)

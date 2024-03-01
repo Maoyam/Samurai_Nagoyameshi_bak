@@ -1,22 +1,15 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import View
 from commondb.models.restaurant import Restaurant
-from unidecode import unidecode
-from django.db.models import Q
+from commondb.models.area import Area
+from commondb.models.genre import Genre
 
 class SearchView(View):
     def get(self, request):
         keyword = request.GET.get('search')
         if keyword:
-            
-            # 検索キーワードを正規化
-            normalized_keyword = slugify(unidecode(keyword))
-            
-            restaurants = Restaurant.objects.filter(
-                Q(name__icontains=keyword) |  # 名前がキーワードに一致するか
-                Q(area__name__icontains=keyword) |  # エリアがキーワードに一致するか
-                Q(genre__name__icontains=keyword)  # ジャンルがキーワードに一致するか
-            )
+            restaurants = Restaurant.objects.filter(name__icontains=keyword)
+            print(restaurants)
         else:
             restaurants = Restaurant.objects.all()  # キーワードが指定されていない場合はすべての店舗を取得
         

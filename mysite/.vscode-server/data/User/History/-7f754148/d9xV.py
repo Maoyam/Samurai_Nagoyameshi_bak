@@ -22,14 +22,13 @@ from general.views.top_view import TopView
 from general.views.login import LoginView
 from general.views.logout import LogoutView
 from general.views.shop_detail_view import ShopDetailView
-from general.views.shop_detail_view import ShopReviewView
-from general.views.shop_detail_view import BookingCreateView
 from general.views.shop_list_view import SearchView, GenreFilterView, AreaFilterView
 from general.views.review_view import SubmitReviewView, ReviewConfirmationView
 from general.views.mypage_view import MypageView
 from general.views.user_update_view import UserUpdateView
 from general.views.user_register_view import RegisterView
-
+from general.views.shop_review_view import ShopReviewView
+from general.views.booking_view import BookingCreateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -37,8 +36,8 @@ urlpatterns = [
     path('general/login/', LoginView.as_view(), name="login"),
     path('general/logout/', LogoutView.as_view(), name="logout"),
     path('general/shop_detail/<int:pk>/', ShopDetailView.as_view(), name="shop_detail"),
-    path('general/shop_review/<int:pk>/', ShopReviewView.as_view(), name="shop_review"),
-    path('general/shop_booking/<int:pk>/', BookingCreateView.as_view(), name="shop_booking"),
+    path('general/shop_review/', ShopReviewView.as_view(), name="shop_review"),
+    path('general/shop_booking/', BookingCreateView.as_view(), name="shop_booking"),
     path('general/shop_list_search/', SearchView.as_view(), name="search"),
     path('general/filter/genre/<int:genre>/', GenreFilterView.as_view(), name="shop_list_genre"),
     path('general/filter/area/<int:area>/', AreaFilterView.as_view(), name="shop_list_area"),

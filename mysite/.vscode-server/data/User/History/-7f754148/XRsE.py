@@ -22,14 +22,13 @@ from general.views.top_view import TopView
 from general.views.login import LoginView
 from general.views.logout import LogoutView
 from general.views.shop_detail_view import ShopDetailView
-from general.views.shop_detail_view import ShopReviewView
-from general.views.shop_detail_view import BookingCreateView
 from general.views.shop_list_view import SearchView, GenreFilterView, AreaFilterView
 from general.views.review_view import SubmitReviewView, ReviewConfirmationView
 from general.views.mypage_view import MypageView
 from general.views.user_update_view import UserUpdateView
 from general.views.user_register_view import RegisterView
-
+from general.views.shop_review_view import ShopReviewView
+from general.views.booking_view import BookingCreateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
