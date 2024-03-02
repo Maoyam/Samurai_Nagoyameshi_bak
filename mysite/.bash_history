@@ -261,3 +261,5 @@ python --version
 python --version
 python manage.py runserver
 python manage.py runserver
+python manage.py runserver
+pip install unidecode
